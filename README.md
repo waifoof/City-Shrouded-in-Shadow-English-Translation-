@@ -2,7 +2,7 @@
 
 Unofficial English fan translation of **巨影都市 (Kyoei Toshi / City Shrouded in Shadow)**, the 2017 PS4 disaster-survival game by Granzella and Bandai Namco, which was only released in Japan and Asia.
 
-**Current release: v1.0** — [download City-Shrouded-in-Shadow-English-v1.0.zip](releases/City-Shrouded-in-Shadow-English-v1.0.zip?raw=1)
+**Current release: v1.0** — download it from the [Releases page](https://github.com/waifoof/City-Shrouded-in-Shadow-English-Translation-/releases/latest).
 
 Target: Japanese PS4 release **CUSA03562** with update **01.03**.
 
