@@ -1,0 +1,22 @@
+CITY SHROUDED IN SHADOW ENGLISH v1.0 - THINGS TO CHECK
+
+Install it in place of any earlier English build; builds are not layered.
+Keep a working copy until the new one is confirmed.
+
+1. Boot: the anti-piracy and "work of fiction" notices are in English.
+2. Title menu and Options: option names and On/Off/Normal/Inverted buttons are
+   English; the brightness test screen reads "This text is ... visible".
+3. Stage start: the stage title card (e.g. "Stage 02 / Shadows Below").
+4. Talk to people in stage 201: English speaker names, voices and lip-sync play.
+5. Controls panel (L3): English labels; also the vehicle, horse and forklift
+   layouts when you reach them.
+6. Item menu: category tabs, sort tabs, equipment slots.
+7. Struggle / shake-off prompts when grabbed, "Get Out" prompt.
+8. Between stages: KYOEI NEWS articles, results screen ("Stage Clear Time"),
+   button hints (Close / Back / Scroll), shop list and coin exchange.
+9. Loading screens: recap titles and story text fit (up to 7 lines).
+10. Saving: slot names and checkpoint names are English; loading works.
+11. Records list, mail, readable items, staff credits, ending monologue.
+
+Report anything still Japanese, cut off or overlapping with a screenshot and
+the place it appears.

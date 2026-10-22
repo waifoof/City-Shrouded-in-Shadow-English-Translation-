@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='utf-8'?>
+<psproject fmt="gp4" version="1000">
+  <volume>
+    <volume_type>pkg_ps4_patch</volume_type>
+    <volume_id />
+    <volume_ts />
+    <package content_id="JP0700-CUSA03562_00-E060000000000001" passcode="00000000000000000000000000000000" storage_type="digital25" app_type="full" app_path="" />
+    <chunk_info chunk_count="19" scenario_count="1">
+      <chunks>
+        <chunk id="0" layer_no="0" label="Root" />
+        <chunk id="1" layer_no="0" label="Stage2" />
+        <chunk id="2" layer_no="0" label="Stage3" />
+        <chunk id="3" layer_no="0" label="Stage4" />
+        <chunk id="4" layer_no="0" label="Stage5" />
+        <chunk id="5" layer_no="0" label="Stage6" />
+        <chunk id="6" layer_no="0" label="Stage7" />
+        <chunk id="7" layer_no="0" label="Stage8" />
+        <chunk id="8" layer_no="0" label="Stage9" />
+        <chunk id="9" layer_no="0" label="Stage10" />
+        <chunk id="10" layer_no="0" label="Stage10-2" />
+        <chunk id="11" layer_no="0" label="Stage10-3" />
+        <chunk id="12" layer_no="0" label="Stage11" />
+        <chunk id="13" layer_no="0" label="Stage12" />
+        <chunk id="14" layer_no="0" label="Stage13" />
+        <chunk id="15" layer_no="0" label="Stage14" />
+        <chunk id="16" layer_no="0" label="Stage15" />
+        <chunk id="17" layer_no="0" label="Stage16" />
+        <chunk id="18" layer_no="0" label="Stage17" />
+      </chunks>
+      <scenarios default_id="0">
+        <scenario id="0" type="sp" initial_chunk_count="1" label="Scenario #0">0-18</scenario>
+      </scenarios>
+    </chunk_info>
+  </volume>
+  <files img_no="0">
+    <file targ_path="DAT/common.psarc" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="DAT/morpheme.psarc" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="DAT/sound.psarc" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="DAT/stage201.psarc" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="DAT/stage202.psarc" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="DAT/stage203.psarc" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="DAT/stage204.psarc" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="DAT/stage205.psarc" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="DAT/stage206.psarc" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="DAT/stage207.psarc" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="DAT/stage208.psarc" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="DAT/stage210.psarc" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="DAT/stage210_2.psarc" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="DAT/stage211.psarc" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="DAT/stage212.psarc" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="DAT/stage214.psarc" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="DAT/stage216.psarc" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="DAT/stage218.psarc" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="DAT/system.psarc" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="eboot.bin" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="module/MasterORBIS/stage201/StageModule.prx" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="module/MasterORBIS/stage202/StageModule.prx" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="module/MasterORBIS/stage203/StageModule.prx" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="module/MasterORBIS/stage204/StageModule.prx" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="module/MasterORBIS/stage205/StageModule.prx" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="module/MasterORBIS/stage206/StageModule.prx" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="module/MasterORBIS/stage207/StageModule.prx" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="module/MasterORBIS/stage208/StageModule.prx" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="module/MasterORBIS/stage209/StageModule.prx" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="module/MasterORBIS/stage210/StageModule.prx" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="module/MasterORBIS/stage210_2/StageModule.prx" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="module/MasterORBIS/stage210_3/StageModule.prx" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="module/MasterORBIS/stage211/StageModule.prx" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="module/MasterORBIS/stage212/StageModule.prx" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="module/MasterORBIS/stage213/StageModule.prx" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="module/MasterORBIS/stage214/StageModule.prx" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="module/MasterORBIS/stage215/StageModule.prx" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="module/MasterORBIS/stage216/StageModule.prx" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="module/MasterORBIS/stage218/StageModule.prx" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="sce_module/libSceFios2.prx" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="sce_module/libSceNpToolkit2.prx" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="sce_sys/changeinfo/changeinfo.xml" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="sce_sys/ext_info.dat" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="sce_sys/icon0.png" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="sce_sys/npbind.dat" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="sce_sys/nptitle.dat" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="sce_sys/param.sfo" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="sce_sys/pic1.png" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="sce_sys/pronunciation.xml" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="sce_sys/shareoverlayimage.png" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="sce_sys/shareparam.json" orig_path="" pfs_compression="enable" chunks="0-18" />
+    <file targ_path="sce_sys/trophy/trophy00.trp" orig_path="" pfs_compression="enable" chunks="0-18" />
+  </files>
+  <rootdir>
+    <dir targ_name="DAT" />
+    <dir targ_name="module">
+      <dir targ_name="MasterORBIS">
+        <dir targ_name="stage201" />
+        <dir targ_name="stage202" />
+        <dir targ_name="stage203" />
+        <dir targ_name="stage204" />
+        <dir targ_name="stage205" />
+        <dir targ_name="stage206" />
+        <dir targ_name="stage207" />
+        <dir targ_name="stage208" />
+        <dir targ_name="stage209" />
+        <dir targ_name="stage210" />
+        <dir targ_name="stage210_2" />
+        <dir targ_name="stage210_3" />
+        <dir targ_name="stage211" />
+        <dir targ_name="stage212" />
+        <dir targ_name="stage213" />
+        <dir targ_name="stage214" />
+        <dir targ_name="stage215" />
+        <dir targ_name="stage216" />
+        <dir targ_name="stage218" />
+      </dir>
+    </dir>
+    <dir targ_name="sce_module" />
+    <dir targ_name="sce_sys">
+      <dir targ_name="changeinfo" />
+      <dir targ_name="trophy" />
+    </dir>
+  </rootdir>
+</psproject>

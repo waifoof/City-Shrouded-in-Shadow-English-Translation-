@@ -1,0 +1,13 @@
+The optional extraction helper uses a separately supplied LibOrbisPkg library.
+Project: maxton/LibOrbisPkg
+Upstream: https://github.com/maxton/LibOrbisPkg
+The local reference package identifies its license as GNU LGPL version 3.
+A copy of that license is supplied in licenses/LibOrbisPkg-LGPL-3.0.txt.
+
+ArchiveReaders.cs implements PFSC/PSARC reading; its PFSC layout follows the
+LibOrbisPkg reference. That source file is included for inspection/rebuilding.
+No LibOrbisPkg DLL, PkgTool executable, or orbis-pub publishing tool is bundled.
+Use your own tools and retain their respective license/notices with those tools.
+
+Game names and original game text/assets belong to their respective owners.
+This source kit is an unofficial translation project.

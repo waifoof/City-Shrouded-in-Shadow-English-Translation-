@@ -1,0 +1,29 @@
+CITY SHROUDED IN SHADOW ENGLISH v1.0 - VERIFICATION
+
+Console
+  * The text-only build (all text, no redrawn images) ran on a jailbroken PS5
+    (firmware 13.00, ShadowMountPlus) via route A in README.txt and was reported working in play.
+  * v1.0 adds the 168 redrawn images on top of that build. The image set was
+    built into a full-game PKG on the same PC; console confirmation of the
+    image changes is pending at release time.
+
+Desktop checks
+  * apply_translation.py was run in strict mode against a reduced PSARC built
+    from the untranslated 1.03 resources this kit touches (all text resources
+    plus every original image that is patched) and the original eboot.bin:
+    342 archive resources changed (174 text + 168 images), every input and
+    output hash matched, and the rebuilt archive read back correctly.
+  * The image patches reproduce the redrawn images byte for byte (compared
+    against the pre-patch build: 0 differences across all resources).
+  * SpeakerTable.luc and all changed Lua scripts load in a real Lua 5.2 VM.
+  * eboot.bin: only bytes inside the 701 listed text slots differ from the
+    original; restoring the originals reproduces it exactly.
+  * The full-game GP4 written by scripts/make_full_gp4.py matches the project
+    that produced the working console build file-for-file.
+  * LibOrbisPkg pkg_validate reported every digest OK on that build.
+
+Not covered
+  * Other regions, other update versions, already-modified files: refused by
+    the hash checks by design.
+  * shadPS4: the game crashed during boot on core 0.20.0 with or without the
+    translation, so emulator support is unknown.

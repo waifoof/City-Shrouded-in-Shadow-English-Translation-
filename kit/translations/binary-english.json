@@ -1,0 +1,5562 @@
+{
+ "files": [
+  {
+   "path": "eboot.bin",
+   "kind": "nul_utf8",
+   "source_sha256": "42b058e57358cdb0516fb39ddafe583634b03d9987a7950f8fd0c317a8f3af83",
+   "changes": [
+    {
+     "offset": 17049111,
+     "japanese": "プレイヤーが未作成",
+     "english": "Player not created"
+    },
+    {
+     "offset": 17049482,
+     "japanese": "ポーズ開始",
+     "english": "Pause start"
+    },
+    {
+     "offset": 17049498,
+     "japanese": "ポーズ解除",
+     "english": "Pause end"
+    },
+    {
+     "offset": 17049777,
+     "japanese": "指定ACBがsystem未登録(%08x)",
+     "english": "ACB not registered (%08x)"
+    },
+    {
+     "offset": 17050534,
+     "japanese": "指定されたハンドルが無効です",
+     "english": "The specified handle is invalid"
+    },
+    {
+     "offset": 17050577,
+     "japanese": "マテリアルに設定しようとした型が違います",
+     "english": "Wrong type set to material"
+    },
+    {
+     "offset": 17050638,
+     "japanese": "マテリアルから取得しようとした型が違います",
+     "english": "Wrong type read from material"
+    },
+    {
+     "offset": 17050959,
+     "japanese": "startMovie failed : モデルリソースが設定されていません",
+     "english": "startMovie failed : model resource not set"
+    },
+    {
+     "offset": 17051031,
+     "japanese": "startMovie failed : モデルリソースにマテリアルが設定されていません",
+     "english": "startMovie failed : model resource has no material"
+    },
+    {
+     "offset": 17051125,
+     "japanese": "startMovie failed : ムービーリソースパスに拡張子(.usm)が設定されていません",
+     "english": "startMovie failed : movie resource path lacks extension (.usm)"
+    },
+    {
+     "offset": 17051224,
+     "japanese": "ロードされていないリソースにアクセスしました",
+     "english": "Accessed a resource that is not loaded"
+    },
+    {
+     "offset": 17357222,
+     "japanese": "不正なアイテムインデックス: %d \n実行ファイルのバージョンが古い可能性があります。",
+     "english": "Invalid item index: %d \nThe executable may be out of date."
+    },
+    {
+     "offset": 17357564,
+     "japanese": "[DataLoadingImageAndText]データが見つかりませんでした",
+     "english": "[DataLoadingImageAndText] Data not found"
+    },
+    {
+     "offset": 17358001,
+     "japanese": "[DataPointLightParam] 有効 の値が想定外です",
+     "english": "[DataPointLightParam] Unexpected value for Enabled"
+    },
+    {
+     "offset": 17358055,
+     "japanese": "[DataPointLightParam] セカンド書き込み の値が想定外です",
+     "english": "[DataPointLightParam] Unexpected value for Second Write"
+    },
+    {
+     "offset": 17358127,
+     "japanese": "[DataPointLightParam] シャドウ有効 の値が想定外です",
+     "english": "[DataPointLightParam] Unexpected value for Shadow Enabled"
+    },
+    {
+     "offset": 17358241,
+     "japanese": "読み物以外のアイテムIDが渡された可能性があります",
+     "english": "An item ID that is not reading material may have been passed"
+    },
+    {
+     "offset": 17358437,
+     "japanese": "[DataSpotLightParam] 有効 の値が想定外です",
+     "english": "[DataSpotLightParam] Unexpected value for Enabled"
+    },
+    {
+     "offset": 17358490,
+     "japanese": "[DataSpotLightParam] セカンド書き込み の値が想定外です",
+     "english": "[DataSpotLightParam] Unexpected value for Second Write"
+    },
+    {
+     "offset": 17358561,
+     "japanese": "[DataSpotLightParam] シャドウ有効 の値が想定外です",
+     "english": "[DataSpotLightParam] Unexpected value for Shadow Enabled"
+    },
+    {
+     "offset": 17361341,
+     "japanese": "所持金(±  1000)",
+     "english": "Money (+/- 1000)"
+    },
+    {
+     "offset": 17361401,
+     "japanese": "全アイテム取得(+1)",
+     "english": "Get all items (+1)"
+    },
+    {
+     "offset": 17361427,
+     "japanese": "プレイヤー選択",
+     "english": "Select player"
+    },
+    {
+     "offset": 17361449,
+     "japanese": "ヒロイン選択",
+     "english": "Select heroine"
+    },
+    {
+     "offset": 17361468,
+     "japanese": "未選択",
+     "english": "Unset"
+    },
+    {
+     "offset": 17361478,
+     "japanese": "彼女は、僕の友人だ",
+     "english": "She is my friend"
+    },
+    {
+     "offset": 17361506,
+     "japanese": "彼女は、僕のとても大切な人だ",
+     "english": "She is very dear to me"
+    },
+    {
+     "offset": 17361549,
+     "japanese": "彼女は、僕の恋人だ",
+     "english": "She is my girlfriend"
+    },
+    {
+     "offset": 17361577,
+     "japanese": "僕は、彼女のことをよく知らないな",
+     "english": "I don't know her very well"
+    },
+    {
+     "offset": 17361626,
+     "japanese": "仕事を終えて会社を出たところだ",
+     "english": "I just left the office after work"
+    },
+    {
+     "offset": 17361672,
+     "japanese": "講義を受けて学校を出たところだ",
+     "english": "I just left school after a lecture"
+    },
+    {
+     "offset": 17361718,
+     "japanese": "ハイテンションで街にやってきたところだ！",
+     "english": "I just came into town all fired up!"
+    },
+    {
+     "offset": 17361779,
+     "japanese": "何となくここに来てしまった",
+     "english": "Somehow I just ended up here"
+    },
+    {
+     "offset": 17361819,
+     "japanese": "全アイテム取得済み",
+     "english": "All items collected"
+    },
+    {
+     "offset": 17361847,
+     "japanese": "未取得アイテムあり",
+     "english": "Items still missing"
+    },
+    {
+     "offset": 17361933,
+     "japanese": "無効なアイテムIDです。",
+     "english": "Invalid item ID."
+    },
+    {
+     "offset": 17361966,
+     "japanese": "無効なアイテム効果IDです。",
+     "english": "Invalid item effect ID."
+    },
+    {
+     "offset": 17362005,
+     "japanese": "帽子",
+     "english": "Hats"
+    },
+    {
+     "offset": 17362012,
+     "japanese": "メガネ",
+     "english": "Glasses"
+    },
+    {
+     "offset": 17362022,
+     "japanese": "マスク",
+     "english": "Mask"
+    },
+    {
+     "offset": 17362032,
+     "japanese": "コスチューム",
+     "english": "Outfit"
+    },
+    {
+     "offset": 17362051,
+     "japanese": "グローブ",
+     "english": "Gloves"
+    },
+    {
+     "offset": 17362064,
+     "japanese": "手持ち",
+     "english": "Hand"
+    },
+    {
+     "offset": 17362074,
+     "japanese": "アクセサリーA",
+     "english": "Accessory A"
+    },
+    {
+     "offset": 17362094,
+     "japanese": "アクセサリーB",
+     "english": "Accessory B"
+    },
+    {
+     "offset": 17362114,
+     "japanese": "靴",
+     "english": "Ft."
+    },
+    {
+     "offset": 17362118,
+     "japanese": "飲食物",
+     "english": "Food"
+    },
+    {
+     "offset": 17362128,
+     "japanese": "コレクション",
+     "english": "Collection"
+    },
+    {
+     "offset": 17362147,
+     "japanese": "髪型",
+     "english": "Hair"
+    },
+    {
+     "offset": 17362154,
+     "japanese": "顔タイプ",
+     "english": "Face"
+    },
+    {
+     "offset": 17362167,
+     "japanese": "読み物",
+     "english": "Reading"
+    },
+    {
+     "offset": 17362177,
+     "japanese": "鍵",
+     "english": "Key"
+    },
+    {
+     "offset": 17362181,
+     "japanese": "一般",
+     "english": "Other"
+    },
+    {
+     "offset": 17362301,
+     "japanese": "getBackupEquipItemId 想定外の_charIdです",
+     "english": "getBackupEquipItemId unexpected _charId"
+    },
+    {
+     "offset": 17362936,
+     "japanese": "無効なストアIDです。実行ファイルのビルドが必要な可能性があります。",
+     "english": "Invalid store ID. The executable may need to be rebuilt."
+    },
+    {
+     "offset": 17363112,
+     "japanese": "     リップリストがありません!",
+     "english": "     No lip list!"
+    },
+    {
+     "offset": 17371237,
+     "japanese": "プロジェクト巨影都市",
+     "english": "Project City in Shadow"
+    },
+    {
+     "offset": 17371268,
+     "japanese": "巨大な影の脅威から生き延び、すべてのトロフィーを入手した。",
+     "english": "Survived the giant shadows and earned every trophy."
+    },
+    {
+     "offset": 17371356,
+     "japanese": "空に広がる不思議な光",
+     "english": "Strange Light Across the Sky"
+    },
+    {
+     "offset": 17371387,
+     "japanese": "雨が降る夜の繁華街。知り合いとの待ち合わせのため、公園に向かっている最中だった。",
+     "english": "A rainy night downtown. You were on your way to the park to meet someone."
+    },
+    {
+     "offset": 17371508,
+     "japanese": "踏みにじられた一輪の花",
+     "english": "A Trampled Flower"
+    },
+    {
+     "offset": 17371542,
+     "japanese": "花屋さんで購入した一輪の花。小さな花には、大きな想いが込められていた。",
+     "english": "A single flower from a flower stall. A small flower holding big feelings."
+    },
+    {
+     "offset": 17371648,
+     "japanese": "裏コスプレ愛好会入会",
+     "english": "Secret Cosplay Club Member"
+    },
+    {
+     "offset": 17371679,
+     "japanese": "男性警官から裏コスプレ愛好会のメンバーズカードをもらった。マニアックなコスプレを好む人たちが集まっているようだ。",
+     "english": "A policeman gave you a Secret Cosplay Club membership card. It seems to gather fans of niche cosplay."
+    },
+    {
+     "offset": 17371848,
+     "japanese": "黒い服の男たち",
+     "english": "Men in Black"
+    },
+    {
+     "offset": 17371870,
+     "japanese": "壊れた建物の覗くと、大量の札束が舞っていた。黒服の二人組は、何者なのだろうか。",
+     "english": "Peering into a ruined building, you saw wads of cash flying. Who are those two men in black?"
+    },
+    {
+     "offset": 17371988,
+     "japanese": "巨影都市、始まる！",
+     "english": "The City in Shadow Begins!"
+    },
+    {
+     "offset": 17372016,
+     "japanese": "巨大な影に初めて遭遇した。早くこの街から逃げ出さなければ・・・。",
+     "english": "You met a giant shadow for the first time. You have to escape this city..."
+    },
+    {
+     "offset": 17372113,
+     "japanese": "父のハンバーガー",
+     "english": "Dad's Hamburger"
+    },
+    {
+     "offset": 17372138,
+     "japanese": "父との思い出のハンバーガーを探す少女。",
+     "english": "A girl seeks the hamburger her dad bought her."
+    },
+    {
+     "offset": 17372196,
+     "japanese": "謎のこわもて",
+     "english": "Tough Stranger"
+    },
+    {
+     "offset": 17372215,
+     "japanese": "黒服の2人組に追われているところを、謎の男が助けてくれた。彼は味方なのだろうか・・・？",
+     "english": "A mysterious man saved you from the two men in black. Is he on your side...?"
+    },
+    {
+     "offset": 17372343,
+     "japanese": "め組",
+     "english": "Douser"
+    },
+    {
+     "offset": 17372350,
+     "japanese": "たくさんの炎を消した。消火器を使う時は火が完全に消えたかよく確認しよう。",
+     "english": "You put out lots of fires. When using an extinguisher, make sure the fire is completely out."
+    },
+    {
+     "offset": 17372459,
+     "japanese": "少女と父親、そしてユキと似た姉",
+     "english": "A Girl, Her Father, and a Sister Like Yuki"
+    },
+    {
+     "offset": 17372505,
+     "japanese": "少女を父親のもとへ送り届けた。ユキさんは実の妹のように、少女に優しく接した。",
+     "english": "You brought the girl to her father. Yuki treated her as kindly as a little sister."
+    },
+    {
+     "offset": 17372620,
+     "japanese": "夜の観測船・二人の約束",
+     "english": "A Promise on the Night Ship"
+    },
+    {
+     "offset": 17372654,
+     "japanese": "副船長と深沢博士は、胸に秘めた想いを話す約束をした。",
+     "english": "First Officer Oda and Dr. Fukazawa promised to share their hidden feelings."
+    },
+    {
+     "offset": 17372733,
+     "japanese": "フォークリフトを駆る",
+     "english": "Forklift Driver"
+    },
+    {
+     "offset": 17372764,
+     "japanese": "初めてフォークリフトを操縦した。これでコンテナを持ち上げることができそうだ。",
+     "english": "You drove a forklift for the first time. Now you can lift containers."
+    },
+    {
+     "offset": 17372879,
+     "japanese": "残業する人たち",
+     "english": "Working Overtime"
+    },
+    {
+     "offset": 17372901,
+     "japanese": "オフィスビルで仕事を続ける会社員に、バックアップのパスワードを教えた。\n彼らは巨大な影が街を襲撃する中、迫りくる納期と闘っていた。",
+     "english": "You gave the backup password to office workers still on the job.\nAs giant shadows attacked the city, they battled a looming deadline."
+    },
+    {
+     "offset": 17373095,
+     "japanese": "不満への理解",
+     "english": "A Sympathetic Ear"
+    },
+    {
+     "offset": 17373114,
+     "japanese": "文句ばかり言う乗客たちに疲れ果てた電車の運転手。\n彼に同調したことで、少し気持ちが和らいだようだ。",
+     "english": "A train driver worn out by complaining passengers.\nSiding with him seemed to ease his mind a little."
+    },
+    {
+     "offset": 17373260,
+     "japanese": "魅惑のＡＴＭ",
+     "english": "The Alluring ATM"
+    },
+    {
+     "offset": 17373279,
+     "japanese": "残高があんなにあると思わなかった。企業の口座だからそういうものかもしれないが、「あるところにはあるもんだ」と改めて思った。",
+     "english": "You never expected such a huge balance. Maybe that's normal for a corporate account, but it proves the money is out there somewhere."
+    },
+    {
+     "offset": 17373463,
+     "japanese": "ユキさんを救出し、タワーから脱出することができた。どうやらタワーは、怪鳥の巣になっていたようだ。",
+     "english": "You rescued Yuki and escaped the tower. It seems the tower had become the monstrous birds' nest."
+    },
+    {
+     "offset": 17373608,
+     "japanese": "ユキさんともう一度会いたい・・・。彼女はこの想いに答えてくれた。",
+     "english": "You wanted to see Yuki again... and she answered that wish."
+    },
+    {
+     "offset": 17373705,
+     "japanese": "主任研究員との夜",
+     "english": "A Night with the Chief"
+    },
+    {
+     "offset": 17373730,
+     "japanese": "主任研究員と2人だけの秘密の約束をした。",
+     "english": "You made a secret promise with Chief Sawada."
+    },
+    {
+     "offset": 17373789,
+     "japanese": "研究所への納品完了",
+     "english": "Delivered to the Institute"
+    },
+    {
+     "offset": 17373817,
+     "japanese": "プログラムを研究所の副所長に届けた。これで、空の広がる閃光の調査も進むらしい。",
+     "english": "You delivered the program to the institute's deputy director. It should help them study the flashes in the sky."
+    },
+    {
+     "offset": 17373935,
+     "japanese": "所長の秘密",
+     "english": "Boss's Secret"
+    },
+    {
+     "offset": 17373951,
+     "japanese": "とても素敵なコスチュームを手に入れたような気がする。とにかくそんな気がするんだ。",
+     "english": "I feel like I got a really amazing outfit. I just have that feeling."
+    },
+    {
+     "offset": 17374072,
+     "japanese": "追っ手たちの所属する企業「Ｗ＆Ｐコンサルティング」",
+     "english": "Your Pursuers' Employer: W&P Consulting"
+    },
+    {
+     "offset": 17374148,
+     "japanese": "Ｗ＆Ｐコンサルティングのパンフレットを入手した。兵器情報を取り扱う会社のようだ。",
+     "english": "You got a W&P Consulting pamphlet. It seems to be a company dealing in weapons intelligence."
+    },
+    {
+     "offset": 17374269,
+     "japanese": "エビネ出版ビルオーナー",
+     "english": "Owner of the Ebine Building"
+    },
+    {
+     "offset": 17374303,
+     "japanese": "とある紳士からビルを購入した。\nこれでビルのオーナーだ！",
+     "english": "You bought a building from a certain gentleman.\nNow you're a building owner!"
+    },
+    {
+     "offset": 17374386,
+     "japanese": "ユキと接近",
+     "english": "Closer to Yuki"
+    },
+    {
+     "offset": 17374402,
+     "japanese": "強風が吹き荒れる中、手を差し伸べてくれたユキさん。2人でこれまでも一緒に困難を乗り越えてきた。",
+     "english": "Yuki held out her hand amid the raging wind. Together, you two have overcome so much."
+    },
+    {
+     "offset": 17374542,
+     "japanese": "駆け抜ける一陣の風",
+     "english": "A Gust Racing Past"
+    },
+    {
+     "offset": 17374570,
+     "japanese": "駆け抜けた！ リサさんと共に背後に迫る爆炎を振り切り、次のステージへと向かう。",
+     "english": "You made it! You and Risa outran the blast behind you and headed for the next stage."
+    },
+    {
+     "offset": 17374686,
+     "japanese": "逃走する女性",
+     "english": "Woman on the Run"
+    },
+    {
+     "offset": 17374705,
+     "japanese": "避難命令が出た街のコンビニで、ひっそりと隠れている女性に出会った。",
+     "english": "In a convenience store in the evacuated city, you met a woman quietly hiding."
+    },
+    {
+     "offset": 17374805,
+     "japanese": "救世主降臨",
+     "english": "Savior Arrives"
+    },
+    {
+     "offset": 17374821,
+     "japanese": "自分が救世主であることを受け入れ、人々に加護を与えた。加護を受けたものは、巨大な影の脅威から救われるだろう。",
+     "english": "You accepted that you are the savior and blessed the people. Those blessed shall be saved from the giant shadows."
+    },
+    {
+     "offset": 17374984,
+     "japanese": "巨影都市・完",
+     "english": "The End"
+    },
+    {
+     "offset": 17375003,
+     "japanese": "最終ステージをクリアした。",
+     "english": "You cleared the final stage."
+    },
+    {
+     "offset": 17375043,
+     "japanese": "初めてのお買いもの",
+     "english": "First Purchase"
+    },
+    {
+     "offset": 17375071,
+     "japanese": "初めて買い物をした。",
+     "english": "You made your first purchase."
+    },
+    {
+     "offset": 17375102,
+     "japanese": "初めてのタックル",
+     "english": "First Tackle"
+    },
+    {
+     "offset": 17375127,
+     "japanese": "初めてタックルをして、物を破壊した。",
+     "english": "You tackled and broke something for the first time."
+    },
+    {
+     "offset": 17375182,
+     "japanese": "初めての食事",
+     "english": "First Meal"
+    },
+    {
+     "offset": 17375201,
+     "japanese": "初めて飲食を行った。",
+     "english": "You had your first meal."
+    },
+    {
+     "offset": 17375232,
+     "japanese": "からあげ大臣",
+     "english": "Chicken Minister"
+    },
+    {
+     "offset": 17375251,
+     "japanese": "6種類のからあげを入手した。",
+     "english": "You collected 6 kinds of fried chicken."
+    },
+    {
+     "offset": 17375292,
+     "japanese": "初めての着替え",
+     "english": "First Outfit Change"
+    },
+    {
+     "offset": 17375314,
+     "japanese": "初めてコスチュームを着替えた。",
+     "english": "You changed outfits for the first time."
+    },
+    {
+     "offset": 17375360,
+     "japanese": "初めての水着",
+     "english": "First Swimsuit"
+    },
+    {
+     "offset": 17375379,
+     "japanese": "初めて水着に着替えた。",
+     "english": "You wore a swimsuit at last."
+    },
+    {
+     "offset": 17375413,
+     "japanese": "所持金１００万円達成！",
+     "english": "1 Million Yen in Hand!"
+    },
+    {
+     "offset": 17375447,
+     "japanese": "所持金が１００万円を突破した。",
+     "english": "Your cash topped 1,000,000 yen."
+    },
+    {
+     "offset": 17375493,
+     "japanese": "保有資産１億円達成！！",
+     "english": "100 Million Yen in Assets!!"
+    },
+    {
+     "offset": 17375527,
+     "japanese": "保有資産が１億円を突破した。",
+     "english": "Your assets topped 100,000,000 yen."
+    },
+    {
+     "offset": 17375570,
+     "japanese": "保有資産１００億円達成！！！",
+     "english": "10 Billion Yen in Assets!!!"
+    },
+    {
+     "offset": 17375613,
+     "japanese": "保有資産が１００億円を突破した。",
+     "english": "Your assets topped 10,000,000,000 yen."
+    },
+    {
+     "offset": 17375662,
+     "japanese": "伝説のKYOEI NEWSライター",
+     "english": "Legendary KYOEI NEWS Writer"
+    },
+    {
+     "offset": 17375694,
+     "japanese": "膨大な数のKYOEI NEWS記事を収集した。",
+     "english": "You collected a huge pile of KYOEI NEWS stories."
+    },
+    {
+     "offset": 17378269,
+     "japanese": "新規システムデータ",
+     "english": "New System Data"
+    },
+    {
+     "offset": 17378297,
+     "japanese": "システムデータ",
+     "english": "System Data"
+    },
+    {
+     "offset": 17378319,
+     "japanese": "クリア時の最高獲得資産額 ￥%lld. クリア時の最大走破距離 %lldm",
+     "english": "Best assets at clear: ¥%lld. Longest distance at clear: %lldm"
+    },
+    {
+     "offset": 17378405,
+     "japanese": "新規セーブデータ %03d",
+     "english": "New Save Data %03d"
+    },
+    {
+     "offset": 17378435,
+     "japanese": "セーブデータ %03d - %s",
+     "english": "Save Data %03d - %s"
+    },
+    {
+     "offset": 17378472,
+     "japanese": "%s - %s (クリア回数 %d)",
+     "english": "%s - %s (Clears: %d)"
+    },
+    {
+     "offset": 17378501,
+     "japanese": "セーブしない場合は、ここまでの進行状況の情報が\n失われますが本当によろしいですか？",
+     "english": "If you don't save, your progress so far\nwill be lost. Are you sure?"
+    },
+    {
+     "offset": 17378623,
+     "japanese": "スペシャルコラボイベント用のダウンロードコンテンツが見つからないため、\nゲームを進めることができません。\nスペシャルコラボイベント用のダウンロードコンテンツをインストールしてください。",
+     "english": "The downloadable content for the special collaboration event\nwas not found, so the game cannot continue.\nPlease install the special collaboration event content."
+    },
+    {
+     "offset": 17378896,
+     "japanese": "セーブデータにエラーがあり読み込むことができません",
+     "english": "The save data contains an error and cannot be loaded."
+    },
+    {
+     "offset": 17379044,
+     "japanese": "Stage 10前編",
+     "english": "Stage 10 Pt. 1"
+    },
+    {
+     "offset": 17379059,
+     "japanese": "Stage 10後編a",
+     "english": "Stage 10 Pt.2a"
+    },
+    {
+     "offset": 17379075,
+     "japanese": "Stage 10後編b",
+     "english": "Stage 10 Pt.2b"
+    },
+    {
+     "offset": 17379154,
+     "japanese": "雨降る街の自動販売機",
+     "english": "Vending Machine in the Rain"
+    },
+    {
+     "offset": 17379185,
+     "japanese": "騒然とした桜町交差点",
+     "english": "Sakuramachi Intersection"
+    },
+    {
+     "offset": 17379216,
+     "japanese": "炎迫るビルの８階",
+     "english": "Burning Building 8F"
+    },
+    {
+     "offset": 17379241,
+     "japanese": "落下後のビルの前",
+     "english": "Building After the Fall"
+    },
+    {
+     "offset": 17379266,
+     "japanese": "地下鉄のトンネル",
+     "english": "Subway Tunnel"
+    },
+    {
+     "offset": 17379291,
+     "japanese": "動かない列車",
+     "english": "Stalled Train"
+    },
+    {
+     "offset": 17379310,
+     "japanese": "地下鉄改札口",
+     "english": "Subway Gates"
+    },
+    {
+     "offset": 17379329,
+     "japanese": "地下街の喫茶店",
+     "english": "Underground Mall Cafe"
+    },
+    {
+     "offset": 17379351,
+     "japanese": "揺れる橋の上",
+     "english": "Swaying Bridge"
+    },
+    {
+     "offset": 17379370,
+     "japanese": "イベリスタワー展望フロア",
+     "english": "Iberis Tower Observation Floor"
+    },
+    {
+     "offset": 17379407,
+     "japanese": "イベリスタワートラス階",
+     "english": "Iberis Tower Truss Level"
+    },
+    {
+     "offset": 17379441,
+     "japanese": "イベリスタワー２０階",
+     "english": "Iberis Tower 20F"
+    },
+    {
+     "offset": 17379472,
+     "japanese": "イベリスタワー１９階",
+     "english": "Iberis Tower 19F"
+    },
+    {
+     "offset": 17379503,
+     "japanese": "下水道工事中の看板",
+     "english": "Sewer Construction Sign"
+    },
+    {
+     "offset": 17379531,
+     "japanese": "コンビニのゴミ箱前",
+     "english": "Convenience Store Trash"
+    },
+    {
+     "offset": 17379559,
+     "japanese": "炎上したタンクローリーのそばの歩道",
+     "english": "Sidewalk by the Burning Tanker Truck"
+    },
+    {
+     "offset": 17379611,
+     "japanese": "観測船の甲板",
+     "english": "Ship's Deck"
+    },
+    {
+     "offset": 17379630,
+     "japanese": "息をひそめて倉庫内",
+     "english": "Hiding in the Warehouse"
+    },
+    {
+     "offset": 17379658,
+     "japanese": "倉庫内事務室",
+     "english": "Warehouse Office"
+    },
+    {
+     "offset": 17379677,
+     "japanese": "爆発炎上倉庫前",
+     "english": "Burning Warehouse"
+    },
+    {
+     "offset": 17379699,
+     "japanese": "オフィスビル１４階",
+     "english": "Office Building 14F"
+    },
+    {
+     "offset": 17379727,
+     "japanese": " 降りた列車のそばの電柱脇",
+     "english": "Pole by the Stopped Train"
+    },
+    {
+     "offset": 17379765,
+     "japanese": "石を投げられる列車のそばの電柱脇",
+     "english": "Pole by the Train Being Stoned"
+    },
+    {
+     "offset": 17379814,
+     "japanese": "すずらん通り路駐自動車",
+     "english": "Parked Car on Suzuran Boulevard"
+    },
+    {
+     "offset": 17379848,
+     "japanese": "トラック内",
+     "english": "In the Truck"
+    },
+    {
+     "offset": 17379864,
+     "japanese": "すずらん通り中央分離帯",
+     "english": "Suzuran Boulevard Median"
+    },
+    {
+     "offset": 17379898,
+     "japanese": "ＰＡＮＳＩＥ　西館ATM",
+     "english": "PANSIE West Wing ATM"
+    },
+    {
+     "offset": 17379929,
+     "japanese": "ミヤトスカイタワー怪鳥の巣",
+     "english": "Miyato Sky Tower Bird Nest"
+    },
+    {
+     "offset": 17379969,
+     "japanese": "ミヤトスカイタワー展望台１階",
+     "english": "Miyato Sky Tower Deck 1F"
+    },
+    {
+     "offset": 17380012,
+     "japanese": "ミヤトスカイタワー地上直通階段",
+     "english": "Miyato Sky Tower Ground Stairs"
+    },
+    {
+     "offset": 17380058,
+     "japanese": "ミヤトスカイタワー点検歩廊",
+     "english": "Miyato Sky Tower Catwalk"
+    },
+    {
+     "offset": 17380108,
+     "japanese": "宇宙線研究所エントランス",
+     "english": "Cosmic Ray Institute Entrance"
+    },
+    {
+     "offset": 17380145,
+     "japanese": "宇宙線研究所２階貯蔵室",
+     "english": "Cosmic Ray Institute 2F Storeroom"
+    },
+    {
+     "offset": 17380179,
+     "japanese": "１階主任研究員のロッカー部屋",
+     "english": "1F Chief Sawada's Locker Room"
+    },
+    {
+     "offset": 17380222,
+     "japanese": "逃れてきた４人",
+     "english": "The Four Who Escaped"
+    },
+    {
+     "offset": 17380244,
+     "japanese": "深夜のラジオ局前",
+     "english": "Radio Station, Night"
+    },
+    {
+     "offset": 17380269,
+     "japanese": "リサとの合流地点",
+     "english": "Meeting Point with Risa"
+    },
+    {
+     "offset": 17380294,
+     "japanese": "会議室観葉植物",
+     "english": "Meeting Room Plant"
+    },
+    {
+     "offset": 17380316,
+     "japanese": "オフィス観葉植物",
+     "english": "Office Potted Plant"
+    },
+    {
+     "offset": 17380341,
+     "japanese": "花韮町１丁目",
+     "english": "Hananira 1-chome"
+    },
+    {
+     "offset": 17380360,
+     "japanese": "週刊巨影編集部",
+     "english": "Weekly Giant Shadow"
+    },
+    {
+     "offset": 17380382,
+     "japanese": "エビネ出版西側出口",
+     "english": "Ebine Publishing West Exit"
+    },
+    {
+     "offset": 17380410,
+     "japanese": "花韮町のコンビニ",
+     "english": "Hananira Conv. Store"
+    },
+    {
+     "offset": 17380435,
+     "japanese": "みづな商店街の自動販売機",
+     "english": "Mizuna St. Vending Machine"
+    },
+    {
+     "offset": 17380472,
+     "japanese": "あの男たちから逃げている最中",
+     "english": "Fleeing Those Men"
+    },
+    {
+     "offset": 17380515,
+     "japanese": "強風吹き荒れるビルの屋上",
+     "english": "Windswept Building Rooftop"
+    },
+    {
+     "offset": 17380552,
+     "japanese": "避難命令の街",
+     "english": "Evacuated City"
+    },
+    {
+     "offset": 17380571,
+     "japanese": "雨上がりのコンビニエンスストア前",
+     "english": "Convenience Store After the Rain"
+    },
+    {
+     "offset": 17380620,
+     "japanese": "オートバイを駆って西へ逃げろ！",
+     "english": "Flee West by Motorcycle!"
+    },
+    {
+     "offset": 17380666,
+     "japanese": "馬を駆って西へ逃げろ！",
+     "english": "Flee West on Horseback!"
+    },
+    {
+     "offset": 17380700,
+     "japanese": "西へ逃げろ！",
+     "english": "Flee West!"
+    },
+    {
+     "offset": 17380719,
+     "japanese": "待ち合わせの公園",
+     "english": "The Meeting Park"
+    },
+    {
+     "offset": 17380744,
+     "japanese": "落下したことのあるビルの前",
+     "english": "The Building You Fell From"
+    },
+    {
+     "offset": 17380784,
+     "japanese": "放置されたパトカー",
+     "english": "Abandoned Police Car"
+    },
+    {
+     "offset": 17380812,
+     "japanese": "通気口を蹴って隣の部屋に",
+     "english": "Kick Through the Vent"
+    },
+    {
+     "offset": 17380849,
+     "japanese": "Ｗ＆Ｐでユキを助けた",
+     "english": "Rescued Yuki at W&P"
+    },
+    {
+     "offset": 17380880,
+     "japanese": "Ｗ＆Ｐウォーターサーバー",
+     "english": "W&P Water Cooler"
+    },
+    {
+     "offset": 17380917,
+     "japanese": "ステージ２より開始",
+     "english": "Start from Stage 2"
+    },
+    {
+     "offset": 17380945,
+     "japanese": "ステージ３より開始",
+     "english": "Start from Stage 3"
+    },
+    {
+     "offset": 17380973,
+     "japanese": "ステージ４より開始",
+     "english": "Start from Stage 4"
+    },
+    {
+     "offset": 17381001,
+     "japanese": "ステージ５より開始",
+     "english": "Start from Stage 5"
+    },
+    {
+     "offset": 17381029,
+     "japanese": "ステージ６より開始",
+     "english": "Start from Stage 6"
+    },
+    {
+     "offset": 17381057,
+     "japanese": "ステージ７より開始",
+     "english": "Start from Stage 7"
+    },
+    {
+     "offset": 17381085,
+     "japanese": "ステージ８より開始",
+     "english": "Start from Stage 8"
+    },
+    {
+     "offset": 17381113,
+     "japanese": "ステージ９より開始",
+     "english": "Start from Stage 9"
+    },
+    {
+     "offset": 17381141,
+     "japanese": "ステージ１０前編より開始",
+     "english": "Start from Stage 10 Part 1"
+    },
+    {
+     "offset": 17381178,
+     "japanese": "ステージ１０後編ａより開始",
+     "english": "Start from Stage 10 Part 2a"
+    },
+    {
+     "offset": 17381218,
+     "japanese": "ステージ１０後編ｂより開始",
+     "english": "Start from Stage 10 Part 2b"
+    },
+    {
+     "offset": 17381258,
+     "japanese": "ステージ１１より開始",
+     "english": "Start from Stage 11"
+    },
+    {
+     "offset": 17381289,
+     "japanese": "ステージ１２より開始",
+     "english": "Start from Stage 12"
+    },
+    {
+     "offset": 17381320,
+     "japanese": "ステージ１３より開始",
+     "english": "Start from Stage 13"
+    },
+    {
+     "offset": 17381351,
+     "japanese": "ステージ１４より開始",
+     "english": "Start from Stage 14"
+    },
+    {
+     "offset": 17381382,
+     "japanese": "ステージ１５より開始",
+     "english": "Start from Stage 15"
+    },
+    {
+     "offset": 17381413,
+     "japanese": "ステージ１６より開始",
+     "english": "Start from Stage 16"
+    },
+    {
+     "offset": 17381444,
+     "japanese": "ステージ１７より開始",
+     "english": "Start from Stage 17"
+    },
+    {
+     "offset": 17381475,
+     "japanese": "新たにステージ１より開始",
+     "english": "New game from Stage 1"
+    },
+    {
+     "offset": 17381512,
+     "japanese": "追加コンテンツを確認しています",
+     "english": "Checking add-on content..."
+    },
+    {
+     "offset": 17381558,
+     "japanese": "「名」を入力してください",
+     "english": "Enter your first name."
+    },
+    {
+     "offset": 17381595,
+     "japanese": "「姓」を入力してください",
+     "english": "Enter your last name."
+    },
+    {
+     "offset": 17381632,
+     "japanese": "%s さん",
+     "english": "%s"
+    },
+    {
+     "offset": 17381642,
+     "japanese": "ゲームクリア特典",
+     "english": "Game Clear Bonus"
+    },
+    {
+     "offset": 17381667,
+     "japanese": "クリアデータをロードすると\n・クリア時に所持していた巨影コイン\n・アイテム交換で消費した巨影コイン\nを引き継いでプレイできます",
+     "english": "Load your clear data to carry over:\n- Giant Shadow Coins you held at clear\n- Giant Shadow Coins spent on item exchanges"
+    },
+    {
+     "offset": 17381851,
+     "japanese": "今回のプレイで巨影コインを使って交換したアイテムは\n次周以降の交換ラインナップに最初から追加されます\n※一部アイテムは\n　同性別での周回プレイ時にのみ追加されます",
+     "english": "Items you exchanged for Giant Shadow Coins this time\nwill be in the exchange lineup from the start of later runs.\n*Some items are only added\n when replaying as the same gender."
+    },
+    {
+     "offset": 17382089,
+     "japanese": "クリアデータをロードすると以下が引き継がれます\n・クリア時に所持していた巨影コイン\n・アイテム交換で消費した巨影コイン\n・救世主として入手したアイテムの色違いが交換可能",
+     "english": "Load your clear data to carry over:\n- Giant Shadow Coins you held at clear\n- Giant Shadow Coins spent on item exchanges\n- Other colors of your Savior items become exchangeable"
+    },
+    {
+     "offset": 17382651,
+     "japanese": "顔モデルリセット",
+     "english": "Reset face model"
+    },
+    {
+     "offset": 17382676,
+     "japanese": "顔モーションリセット",
+     "english": "Reset face motion"
+    },
+    {
+     "offset": 17383653,
+     "japanese": "攻撃コリジョン有効化",
+     "english": "Enable attack collision"
+    },
+    {
+     "offset": 17383684,
+     "japanese": "攻撃コリジョン無効化",
+     "english": "Disable attack collision"
+    },
+    {
+     "offset": 17383715,
+     "japanese": "3Dサウンド再生(ユニット位置)",
+     "english": "Play 3D sound (unit position)"
+    },
+    {
+     "offset": 17383756,
+     "japanese": "3Dサウンド再生(ユニットにアタッチ)",
+     "english": "Play 3D sound (attached to unit)"
+    },
+    {
+     "offset": 17383806,
+     "japanese": "3Dサウンド再生(ワールド座標指定)",
+     "english": "Play 3D sound (world coordinates)"
+    },
+    {
+     "offset": 17383853,
+     "japanese": "2Dサウンド再生",
+     "english": "Play 2D sound"
+    },
+    {
+     "offset": 17384062,
+     "japanese": "顔：モーションを再生",
+     "english": "Face: play motion"
+    },
+    {
+     "offset": 17384238,
+     "japanese": "唇：モーションを再生",
+     "english": "Lips: play motion"
+    },
+    {
+     "offset": 17384269,
+     "japanese": "唇：モーションを停止",
+     "english": "Lips: stop motion"
+    },
+    {
+     "offset": 17384729,
+     "japanese": "VRAMアロケータが初期化されていません",
+     "english": "VRAM allocator not initialized"
+    },
+    {
+     "offset": 17400851,
+     "japanese": "ドアカメラが見つかりません。",
+     "english": "Door camera not found."
+    },
+    {
+     "offset": 17400894,
+     "japanese": "プレイヤーが見つかりません。",
+     "english": "Player not found."
+    },
+    {
+     "offset": 17400937,
+     "japanese": "注目カメラが見つかりません。",
+     "english": "Focus camera not found."
+    },
+    {
+     "offset": 17400980,
+     "japanese": "カメラ回転　が見つかりません。",
+     "english": "Camera rotation not found."
+    },
+    {
+     "offset": 17401026,
+     "japanese": "二点間カメラが見つかりません。",
+     "english": "Two-point camera not found."
+    },
+    {
+     "offset": 17401072,
+     "japanese": "レールカメラが見つかりません。",
+     "english": "Rail camera not found."
+    },
+    {
+     "offset": 17405853,
+     "japanese": "UnitHudMessageWindow : メッセージウィンドウ以外のポインタが渡されました。",
+     "english": "UnitHudMessageWindow : pointer passed is not a message window."
+    },
+    {
+     "offset": 17405952,
+     "japanese": "UnitHudMessageWindowOld : メッセージウィンドウ以外のポインタが渡されました。",
+     "english": "UnitHudMessageWindowOld : pointer passed is not a message window."
+    },
+    {
+     "offset": 17406492,
+     "japanese": "UnitHudChoiceList : 選択肢ウィンドウ以外のポインタが渡されました。",
+     "english": "UnitHudChoiceList : pointer passed is not a choice window."
+    },
+    {
+     "offset": 17406619,
+     "japanese": "UnitHudChoiceListOld 無効なポインタが渡されました。",
+     "english": "UnitHudChoiceListOld invalid pointer passed."
+    },
+    {
+     "offset": 17406686,
+     "japanese": "不正なインデックスです。",
+     "english": "Invalid index."
+    },
+    {
+     "offset": 17407345,
+     "japanese": "UnitHudImageWindow : UnitHudImageWindow以外のポインタが渡されました。",
+     "english": "UnitHudImageWindow : pointer passed is not a UnitHudImageWindow."
+    },
+    {
+     "offset": 17408163,
+     "japanese": "調べものＩＤがNIL",
+     "english": "Search ID is NIL"
+    },
+    {
+     "offset": 17408642,
+     "japanese": "UnitCockpitManagerが見つかりませんでした",
+     "english": "UnitCockpitManager not found"
+    },
+    {
+     "offset": 17408694,
+     "japanese": "UnitHudDateTimeが見つかりませんでした",
+     "english": "UnitHudDateTime not found"
+    },
+    {
+     "offset": 17408743,
+     "japanese": "アイコンデータがきりすてられました。",
+     "english": "Icon data was truncated."
+    },
+    {
+     "offset": 17408938,
+     "japanese": "２０１８年４月６日",
+     "english": "April 6, 2018"
+    },
+    {
+     "offset": 17408966,
+     "japanese": "１００％",
+     "english": "100%"
+    },
+    {
+     "offset": 17408979,
+     "japanese": "１８℃",
+     "english": "18 C"
+    },
+    {
+     "offset": 17408996,
+     "japanese": "８０％",
+     "english": "80%"
+    },
+    {
+     "offset": 17409006,
+     "japanese": "１９℃",
+     "english": "19 C"
+    },
+    {
+     "offset": 17409016,
+     "japanese": "１１℃",
+     "english": "11 C"
+    },
+    {
+     "offset": 17409026,
+     "japanese": "２０１８年４月７日",
+     "english": "April 7, 2018"
+    },
+    {
+     "offset": 17409054,
+     "japanese": "４０％",
+     "english": "40%"
+    },
+    {
+     "offset": 17409064,
+     "japanese": "２２℃",
+     "english": "22 C"
+    },
+    {
+     "offset": 17409074,
+     "japanese": "１３℃",
+     "english": "13 C"
+    },
+    {
+     "offset": 17409084,
+     "japanese": "アイテム広告データがきりすてられました。",
+     "english": "Item ad data was truncated."
+    },
+    {
+     "offset": 17409145,
+     "japanese": "広告データがきりすてられました。",
+     "english": "Ad data was truncated."
+    },
+    {
+     "offset": 17409194,
+     "japanese": "ニュースデータが切り捨てられました。",
+     "english": "News data was truncated."
+    },
+    {
+     "offset": 17410039,
+     "japanese": "数字以外の文字が含まれています!",
+     "english": "Contains non-numeric characters!"
+    },
+    {
+     "offset": 17413440,
+     "japanese": "CtrlInfo.open() の引数が範囲外 (%d)",
+     "english": "CtrlInfo.open() argument out of range (%d)"
+    },
+    {
+     "offset": 17441073,
+     "japanese": "CameraTargetEnemyList が Table ではない",
+     "english": "CameraTargetEnemyList is not a Table"
+    },
+    {
+     "offset": 17441118,
+     "japanese": "CameraTargetEnemyList の要素 [%d] が Table ではない",
+     "english": "CameraTargetEnemyList element [%d] is not a Table"
+    },
+    {
+     "offset": 17450587,
+     "japanese": "第１話",
+     "english": "Chapter 1"
+    },
+    {
+     "offset": 17450597,
+     "japanese": "第２話",
+     "english": "Chapter 2"
+    },
+    {
+     "offset": 17450607,
+     "japanese": "第３話",
+     "english": "Chapter 3"
+    },
+    {
+     "offset": 17450617,
+     "japanese": "第４話",
+     "english": "Chapter 4"
+    },
+    {
+     "offset": 17450627,
+     "japanese": "第５話",
+     "english": "Chapter 5"
+    },
+    {
+     "offset": 17450637,
+     "japanese": "第６話",
+     "english": "Chapter 6"
+    },
+    {
+     "offset": 17450647,
+     "japanese": "第７話",
+     "english": "Chapter 7"
+    },
+    {
+     "offset": 17450657,
+     "japanese": "第８話",
+     "english": "Chapter 8"
+    },
+    {
+     "offset": 17450667,
+     "japanese": "第９話",
+     "english": "Chapter 9"
+    },
+    {
+     "offset": 17450677,
+     "japanese": "第１０話前編",
+     "english": "Chapter 10 Part 1"
+    },
+    {
+     "offset": 17450696,
+     "japanese": "第１０話後編ａ",
+     "english": "Chapter 10 Part 2a"
+    },
+    {
+     "offset": 17450718,
+     "japanese": "第１０話後編ｂ",
+     "english": "Chapter 10 Part 2b"
+    },
+    {
+     "offset": 17450740,
+     "japanese": "第１１話",
+     "english": "Chapter 11"
+    },
+    {
+     "offset": 17450753,
+     "japanese": "第１２話",
+     "english": "Chapter 12"
+    },
+    {
+     "offset": 17450766,
+     "japanese": "第１３話",
+     "english": "Chapter 13"
+    },
+    {
+     "offset": 17450779,
+     "japanese": "第１４話",
+     "english": "Chapter 14"
+    },
+    {
+     "offset": 17450792,
+     "japanese": "第１５話",
+     "english": "Chapter 15"
+    },
+    {
+     "offset": 17450805,
+     "japanese": "第１６話",
+     "english": "Chapter 16"
+    },
+    {
+     "offset": 17450818,
+     "japanese": "第１７話",
+     "english": "Chapter 17"
+    },
+    {
+     "offset": 17450831,
+     "japanese": "タイトルループ",
+     "english": "Title loop"
+    },
+    {
+     "offset": 17450853,
+     "japanese": "---- ステージセレクト ----",
+     "english": "---- STAGE SELECT ----"
+    },
+    {
+     "offset": 17450888,
+     "japanese": "GATE %3d (L1 + 十字ボタン：±10)",
+     "english": "GATE %3d (L1 + D-pad: +/-10)"
+    },
+    {
+     "offset": 17450927,
+     "japanese": "[R1 + 十字ボタン(左右)で変更]",
+     "english": "[R1 + D-pad left/right to change]"
+    },
+    {
+     "offset": 17450975,
+     "japanese": "> 男性主人公    女性主人公",
+     "english": "> Male hero    Female hero"
+    },
+    {
+     "offset": 17451012,
+     "japanese": "  男性主人公  > 女性主人公",
+     "english": "  Male hero  > Female hero"
+    },
+    {
+     "offset": 17451078,
+     "japanese": "[OPTION] セーブデータのロード",
+     "english": "[OPTIONS] Load save data"
+    },
+    {
+     "offset": 17451118,
+     "japanese": "[R1 + △] 追加コンテンツの確認を開始",
+     "english": "[R1 + Triangle] Start add-on content check"
+    },
+    {
+     "offset": 17451169,
+     "japanese": "タッチパッド押し込みでデバッグメニュー表示",
+     "english": "Press touch pad to show debug menu"
+    },
+    {
+     "offset": 17457077,
+     "japanese": "SysEffect::createEffect() Index[%d]のエフェクトが見つかりません",
+     "english": "SysEffect::createEffect() effect for Index[%d] not found"
+    },
+    {
+     "offset": 17459138,
+     "japanese": "未定義の program functions handle",
+     "english": "Undefined program functions handle"
+    },
+    {
+     "offset": 17461540,
+     "japanese": "全ユニットのカリング有効化",
+     "english": "Enable culling for all units"
+    },
+    {
+     "offset": 17461580,
+     "japanese": "全ユニットのカリング無効化",
+     "english": "Disable culling for all units"
+    },
+    {
+     "offset": 17461620,
+     "japanese": "全ユニットのLODをSuperHighに",
+     "english": "All units LOD SuperHigh"
+    },
+    {
+     "offset": 17461657,
+     "japanese": "全ユニットのLODをHighに",
+     "english": "All units LOD High"
+    },
+    {
+     "offset": 17461689,
+     "japanese": "全ユニットのLODをMiddleに",
+     "english": "All units LOD Middle"
+    },
+    {
+     "offset": 17461723,
+     "japanese": "全ユニットのLODをLowに",
+     "english": "All units LOD Low"
+    },
+    {
+     "offset": 17461754,
+     "japanese": "全ユニットのLODをSuperLowに",
+     "english": "All units LOD SuperLow"
+    },
+    {
+     "offset": 17461790,
+     "japanese": "全ユニットのLODをAutoに",
+     "english": "All units LOD Auto"
+    },
+    {
+     "offset": 17461822,
+     "japanese": "既に同じIDのウィンドウが作成されています。\nID = %d",
+     "english": "A window with the same ID already exists.\nID = %d"
+    },
+    {
+     "offset": 17461893,
+     "japanese": "メッセージウィンドウの作成に失敗しました。",
+     "english": "Failed to create message window."
+    },
+    {
+     "offset": 17461957,
+     "japanese": "%ITEMを手に入れた！",
+     "english": "Obtained %ITEM!"
+    },
+    {
+     "offset": 17461984,
+     "japanese": "選択肢の作成に失敗しました。",
+     "english": "Failed to create choices."
+    },
+    {
+     "offset": 17462262,
+     "japanese": "セマフォのシグナル送信に失敗",
+     "english": "Failed to signal semaphore"
+    },
+    {
+     "offset": 17462305,
+     "japanese": "スレッド属性の初期化に失敗",
+     "english": "Failed to init thread attributes"
+    },
+    {
+     "offset": 17462345,
+     "japanese": "スレッドデタッチステートの設定に失敗",
+     "english": "Failed to set thread detach state"
+    },
+    {
+     "offset": 17462413,
+     "japanese": "スレッドの作成に失敗",
+     "english": "Failed to create thread"
+    },
+    {
+     "offset": 17462444,
+     "japanese": "スレッド属性の破棄に失敗",
+     "english": "Failed to destroy thread attributes"
+    },
+    {
+     "offset": 17462495,
+     "japanese": "録画情報の設定に失敗",
+     "english": "Failed to set recording info"
+    },
+    {
+     "offset": 17462679,
+     "japanese": "スレッドの待機に失敗",
+     "english": "Failed to wait for thread"
+    },
+    {
+     "offset": 17463081,
+     "japanese": "録画データ読み込みに失敗",
+     "english": "Failed to read recording data"
+    },
+    {
+     "offset": 17463118,
+     "japanese": "録画データ書き込みに失敗",
+     "english": "Failed to write recording data"
+    },
+    {
+     "offset": 17463155,
+     "japanese": "[SysVideoRecording]ファイルオープンに失敗:%s",
+     "english": "[SysVideoRecording] Failed to open file: %s"
+    },
+    {
+     "offset": 17463211,
+     "japanese": "保存先ファイルオープンに失敗しました",
+     "english": "Failed to open destination file"
+    },
+    {
+     "offset": 17463266,
+     "japanese": "録画ファイルオープンに失敗しました",
+     "english": "Failed to open recording file"
+    },
+    {
+     "offset": 17463331,
+     "japanese": "KernelSemaの破棄に失敗",
+     "english": "Failed to destroy KernelSema"
+    },
+    {
+     "offset": 17463360,
+     "japanese": "VideoRecording用バッファの確保に失敗",
+     "english": "Failed to allocate VideoRecording buffer"
+    },
+    {
+     "offset": 17463604,
+     "japanese": "KernelSemaの作成に失敗",
+     "english": "Failed to create KernelSema"
+    },
+    {
+     "offset": 17468401,
+     "japanese": "マテリアルエフェクト開始",
+     "english": "Start material effect"
+    },
+    {
+     "offset": 17469021,
+     "japanese": "[UnitBus210]想定外の角度です。計算方法にバグが存在している可能性があります。",
+     "english": "[UnitBus210] Unexpected angle. The calculation may have a bug."
+    },
+    {
+     "offset": 17469248,
+     "japanese": "UnitBus210が既に作成されています。",
+     "english": "UnitBus210 already created."
+    },
+    {
+     "offset": 17469689,
+     "japanese": "モーションシーケンスモジュール確保失敗",
+     "english": "Failed to allocate motion sequence module"
+    },
+    {
+     "offset": 17469747,
+     "japanese": "モーションシーケンスパッケージリソース読込失敗",
+     "english": "Failed to load motion sequence package resource"
+    },
+    {
+     "offset": 17470146,
+     "japanese": "ラグドールリソース読込失敗",
+     "english": "Failed to load ragdoll resource"
+    },
+    {
+     "offset": 17472618,
+     "japanese": "[超音波メス]歪みエフェクトのリソースが読み込めませんでした。",
+     "english": "[Ultrasonic Scalpel] Could not load distortion effect resource."
+    },
+    {
+     "offset": 17472744,
+     "japanese": "[超音波メス]光線モデルのリソースが読み込めませんでした。",
+     "english": "[Ultrasonic Scalpel] Could not load beam model resource."
+    },
+    {
+     "offset": 17472876,
+     "japanese": "[超音波メス]光線エフェクトのリソースが読み込めませんでした。",
+     "english": "[Ultrasonic Scalpel] Could not load beam effect resource."
+    },
+    {
+     "offset": 17473075,
+     "japanese": "[超音波メス]光線コリジョンのリソースが読み込めませんでした。",
+     "english": "[Ultrasonic Scalpel] Could not load beam collision resource."
+    },
+    {
+     "offset": 17473165,
+     "japanese": "[超音波メス]歪みエフェクトユニットが作成できませんでした。",
+     "english": "[Ultrasonic Scalpel] Could not create distortion effect unit."
+    },
+    {
+     "offset": 17473252,
+     "japanese": "[超音波メス]光線モデルユニットが作成できませんでした。",
+     "english": "[Ultrasonic Scalpel] Could not create beam model unit."
+    },
+    {
+     "offset": 17473333,
+     "japanese": "[超音波メス]光線エフェクトユニットが作成できませんでした。",
+     "english": "[Ultrasonic Scalpel] Could not create beam effect unit."
+    },
+    {
+     "offset": 17475349,
+     "japanese": "発射",
+     "english": "Fire"
+    },
+    {
+     "offset": 17475356,
+     "japanese": "揺れ開始",
+     "english": "Start shake"
+    },
+    {
+     "offset": 17475369,
+     "japanese": "揺れ停止",
+     "english": "Stop shake"
+    },
+    {
+     "offset": 17476554,
+     "japanese": "[UnitE006Land]想定外の思考状態です。強制的に追尾状態に移行します。",
+     "english": "[UnitE006Land] Unexpected AI state. Forcing chase state."
+    },
+    {
+     "offset": 17481190,
+     "japanese": "攻撃中レギオンが複数います",
+     "english": "Multiple Legion are attacking"
+    },
+    {
+     "offset": 17481714,
+     "japanese": "こもりサウンドに切り替え",
+     "english": "Switch to muffled sound"
+    },
+    {
+     "offset": 17484002,
+     "japanese": "カメラパラメータを操作時用に変更",
+     "english": "Camera params set for control"
+    },
+    {
+     "offset": 17484051,
+     "japanese": "金属片生成(右手)",
+     "english": "Metal shard (R hand)"
+    },
+    {
+     "offset": 17484075,
+     "japanese": "金属片生成(左手)",
+     "english": "Metal shard (L hand)"
+    },
+    {
+     "offset": 17488299,
+     "japanese": "操作可能に",
+     "english": "Controllable"
+    },
+    {
+     "offset": 17488315,
+     "japanese": "操作不可に",
+     "english": "No control"
+    },
+    {
+     "offset": 17489448,
+     "japanese": "[E029]想定外の思考状態です。強制的に通常状態に移行します。",
+     "english": "[E029] Unexpected AI state. Forcing normal state."
+    },
+    {
+     "offset": 17496085,
+     "japanese": "無効なタイプです。",
+     "english": "Invalid type."
+    },
+    {
+     "offset": 17496170,
+     "japanese": "無効なBLINK_STATEです。",
+     "english": "Invalid BLINK_STATE."
+    },
+    {
+     "offset": 17496210,
+     "japanese": "運転中NPCの作成に失敗しました。",
+     "english": "Failed to create driving NPC."
+    },
+    {
+     "offset": 17496579,
+     "japanese": "_movingCarListの作成に失敗している可能性があります。",
+     "english": "_movingCarList may have failed to be created."
+    },
+    {
+     "offset": 17503166,
+     "japanese": "移動：通常",
+     "english": "Move: normal"
+    },
+    {
+     "offset": 17503182,
+     "japanese": "死亡：E018",
+     "english": "Death: E018"
+    },
+    {
+     "offset": 17503196,
+     "japanese": "しゃがみ(他から)",
+     "english": "Crouch (from other)"
+    },
+    {
+     "offset": 17503220,
+     "japanese": "倒れる：吹き飛ばし",
+     "english": "Fall: blown away"
+    },
+    {
+     "offset": 17503248,
+     "japanese": "倒れる：吹き飛ばし(回避)",
+     "english": "Fall: blown away (evade)"
+    },
+    {
+     "offset": 17504614,
+     "japanese": "WARNING:[UnitMrPlayer2]フォークリフト暴走時の転倒は想定外です！",
+     "english": "WARNING:[UnitMrPlayer2] Falling during forklift rampage is unexpected!"
+    },
+    {
+     "offset": 17512333,
+     "japanese": "通常出現",
+     "english": "Normal spawn"
+    },
+    {
+     "offset": 17512346,
+     "japanese": "待機",
+     "english": "Idle"
+    },
+    {
+     "offset": 17512353,
+     "japanese": "待機：強風",
+     "english": "Idle: wind"
+    },
+    {
+     "offset": 17512369,
+     "japanese": "待機：スロープ",
+     "english": "Idle: slope"
+    },
+    {
+     "offset": 17512391,
+     "japanese": "待機：ターン",
+     "english": "Idle: turn"
+    },
+    {
+     "offset": 17512410,
+     "japanese": "移動：はじめ",
+     "english": "Move: start"
+    },
+    {
+     "offset": 17512429,
+     "japanese": "移動：ループ",
+     "english": "Move: loop"
+    },
+    {
+     "offset": 17512448,
+     "japanese": "移動：おわり",
+     "english": "Move: end"
+    },
+    {
+     "offset": 17512467,
+     "japanese": "移動：ターン",
+     "english": "Move: turn"
+    },
+    {
+     "offset": 17512486,
+     "japanese": "ダメージ：通常",
+     "english": "Damage: normal"
+    },
+    {
+     "offset": 17512508,
+     "japanese": "ダメージ：炎",
+     "english": "Damage: fire"
+    },
+    {
+     "offset": 17512527,
+     "japanese": "ダメージ：仰向け",
+     "english": "Damage: on back"
+    },
+    {
+     "offset": 17512552,
+     "japanese": "ダメージ：うつ伏せ",
+     "english": "Damage: face down"
+    },
+    {
+     "offset": 17512580,
+     "japanese": "ダメージ：仰向け(踏：頭)",
+     "english": "Damage: back (stomp head)"
+    },
+    {
+     "offset": 17512616,
+     "japanese": "ダメージ：仰向け(踏：体)",
+     "english": "Damage: back (stomp body)"
+    },
+    {
+     "offset": 17512652,
+     "japanese": "ダメージ：仰向け(踏：足)",
+     "english": "Damage: back (stomp legs)"
+    },
+    {
+     "offset": 17512688,
+     "japanese": "ダメージ：うつ伏せ(踏：頭)",
+     "english": "Damage: down (stomp head)"
+    },
+    {
+     "offset": 17512727,
+     "japanese": "ダメージ：うつ伏せ(踏：体)",
+     "english": "Damage: down (stomp body)"
+    },
+    {
+     "offset": 17512766,
+     "japanese": "ダメージ：うつ伏せ(踏：足)",
+     "english": "Damage: down (stomp legs)"
+    },
+    {
+     "offset": 17512805,
+     "japanese": "ダメージ：撃たれる",
+     "english": "Damage: shot"
+    },
+    {
+     "offset": 17512833,
+     "japanese": "ダメージ：飛ばされる",
+     "english": "Damage: thrown"
+    },
+    {
+     "offset": 17512864,
+     "japanese": "ダメージ：出血",
+     "english": "Damage: bleed"
+    },
+    {
+     "offset": 17512886,
+     "japanese": "死亡：通常",
+     "english": "Death: normal"
+    },
+    {
+     "offset": 17512902,
+     "japanese": "死亡：飛行ギャオス",
+     "english": "Death: flying Gyaos"
+    },
+    {
+     "offset": 17512930,
+     "japanese": "死亡：歩行ギャオス",
+     "english": "Death: walking Gyaos"
+    },
+    {
+     "offset": 17512958,
+     "japanese": "死亡：ダダ",
+     "english": "Death: Dada"
+    },
+    {
+     "offset": 17512974,
+     "japanese": "死亡：黒服207",
+     "english": "Death: MIB 207"
+    },
+    {
+     "offset": 17512993,
+     "japanese": "死亡：207船イベント",
+     "english": "Death: 207 ship"
+    },
+    {
+     "offset": 17513021,
+     "japanese": "死亡：落下",
+     "english": "Death: fall"
+    },
+    {
+     "offset": 17513037,
+     "japanese": "死亡：足場が不安定",
+     "english": "Death: unstable"
+    },
+    {
+     "offset": 17513065,
+     "japanese": "死亡：乗車中",
+     "english": "Death: in vehicle"
+    },
+    {
+     "offset": 17513084,
+     "japanese": "死亡：E018捕獲",
+     "english": "Death: E018 catch"
+    },
+    {
+     "offset": 17513104,
+     "japanese": "死亡：落下(209電車)",
+     "english": "Death: fall (209 train)"
+    },
+    {
+     "offset": 17513131,
+     "japanese": "死亡：轢死",
+     "english": "Death: run over"
+    },
+    {
+     "offset": 17513147,
+     "japanese": "死亡：武藤つかみ",
+     "english": "Death: Muto grab"
+    },
+    {
+     "offset": 17513172,
+     "japanese": "乗り物：開始",
+     "english": "Vehicle: start"
+    },
+    {
+     "offset": 17513191,
+     "japanese": "乗り物(車)：待機",
+     "english": "Vehicle (car): idle"
+    },
+    {
+     "offset": 17513215,
+     "japanese": "乗り物(車)：バック",
+     "english": "Vehicle (car): back"
+    },
+    {
+     "offset": 17513242,
+     "japanese": "乗り物(バイク)待機",
+     "english": "Vehicle (bike) idle"
+    },
+    {
+     "offset": 17513269,
+     "japanese": "乗り物(バイク)移動(前進)",
+     "english": "Vehicle (bike) move (fwd)"
+    },
+    {
+     "offset": 17513304,
+     "japanese": "乗り物(バイク)移動(後退)",
+     "english": "Vehicle (bike) move (back)"
+    },
+    {
+     "offset": 17513339,
+     "japanese": "乗り物(バイク)ジャンプ",
+     "english": "Vehicle (bike) jump"
+    },
+    {
+     "offset": 17513372,
+     "japanese": "乗り物(バイク)回避",
+     "english": "Vehicle (bike) evade"
+    },
+    {
+     "offset": 17513399,
+     "japanese": "乗り物(バイク)ダメージ",
+     "english": "Vehicle (bike) damage"
+    },
+    {
+     "offset": 17513432,
+     "japanese": "乗り物(バイク)死亡",
+     "english": "Vehicle (bike) death"
+    },
+    {
+     "offset": 17513459,
+     "japanese": "乗り物(ギャオス)：被捕獲(緊急回避可)",
+     "english": "Vehicle (Gyaos): caught (can escape)"
+    },
+    {
+     "offset": 17513512,
+     "japanese": "乗り物(ギャオス)：被捕獲",
+     "english": "Vehicle (Gyaos): caught"
+    },
+    {
+     "offset": 17513548,
+     "japanese": "乗り物(地上ギャオス)：咥えられ",
+     "english": "Vehicle (ground Gyaos): in mouth"
+    },
+    {
+     "offset": 17513593,
+     "japanese": "乗り物(馬)：待機",
+     "english": "Vehicle (horse): idle"
+    },
+    {
+     "offset": 17513617,
+     "japanese": "乗り物(馬)：移動",
+     "english": "Vehicle (horse): move"
+    },
+    {
+     "offset": 17513641,
+     "japanese": "乗り物(馬)：ジャンプ",
+     "english": "Vehicle (horse): jump"
+    },
+    {
+     "offset": 17513671,
+     "japanese": "乗り物：グラウベア：被捕獲",
+     "english": "Vehicle: Glaubear: caught"
+    },
+    {
+     "offset": 17513711,
+     "japanese": "乗り物：エイブラハム",
+     "english": "Vehicle: Abraham"
+    },
+    {
+     "offset": 17513742,
+     "japanese": "乗り物：フォークリフト：前進",
+     "english": "Vehicle: forklift: forward"
+    },
+    {
+     "offset": 17513785,
+     "japanese": "乗り物：フォークリフト：後退",
+     "english": "Vehicle: forklift: reverse"
+    },
+    {
+     "offset": 17513828,
+     "japanese": "しゃがみ(開始)",
+     "english": "Crouch (start)"
+    },
+    {
+     "offset": 17513849,
+     "japanese": "しゃがみ(四つんばいへ)",
+     "english": "Crouch (to crawl)"
+    },
+    {
+     "offset": 17513882,
+     "japanese": "しゃがみ(待機へ)",
+     "english": "Crouch (to idle)"
+    },
+    {
+     "offset": 17513906,
+     "japanese": "四つんばい：待機",
+     "english": "Crawl: idle"
+    },
+    {
+     "offset": 17513931,
+     "japanese": "四つんばいから待機へ",
+     "english": "Crawl to idle"
+    },
+    {
+     "offset": 17513962,
+     "japanese": "四つんばい：移動",
+     "english": "Crawl: move"
+    },
+    {
+     "offset": 17513987,
+     "japanese": "ジャンプ：開始",
+     "english": "Jump: start"
+    },
+    {
+     "offset": 17514009,
+     "japanese": "ジャンプ：落下",
+     "english": "Jump: fall"
+    },
+    {
+     "offset": 17514031,
+     "japanese": "ジャンプ：着地",
+     "english": "Jump: land"
+    },
+    {
+     "offset": 17514053,
+     "japanese": "回避(立ち)",
+     "english": "Evade (stand)"
+    },
+    {
+     "offset": 17514068,
+     "japanese": "回避(しゃがみ)",
+     "english": "Evade (crouch)"
+    },
+    {
+     "offset": 17514089,
+     "japanese": "回避(四つんばい)",
+     "english": "Evade (crawl)"
+    },
+    {
+     "offset": 17514113,
+     "japanese": "回避(ゴミ箱)",
+     "english": "Evade (bin)"
+    },
+    {
+     "offset": 17514131,
+     "japanese": "回避(E018捕獲)",
+     "english": "Evade (E018)"
+    },
+    {
+     "offset": 17514150,
+     "japanese": "よろけ前",
+     "english": "Stagger F"
+    },
+    {
+     "offset": 17514163,
+     "japanese": "よろけ後",
+     "english": "Stagger B"
+    },
+    {
+     "offset": 17514176,
+     "japanese": "よろけ左",
+     "english": "Stagger L"
+    },
+    {
+     "offset": 17514189,
+     "japanese": "よろけ右",
+     "english": "Stagger R"
+    },
+    {
+     "offset": 17514202,
+     "japanese": "よろけ：不安定な場所",
+     "english": "Stagger: unstable"
+    },
+    {
+     "offset": 17514233,
+     "japanese": "よろけ：ダメージ流用",
+     "english": "Stagger: reuse dmg"
+    },
+    {
+     "offset": 17514264,
+     "japanese": "倒れる：しりもち",
+     "english": "Fall: on rear"
+    },
+    {
+     "offset": 17514289,
+     "japanese": "倒れる：前",
+     "english": "Fall: fwd"
+    },
+    {
+     "offset": 17514305,
+     "japanese": "倒れる：前(走り)",
+     "english": "Fall: fwd (run)"
+    },
+    {
+     "offset": 17514329,
+     "japanese": "倒れる：後",
+     "english": "Fall: back"
+    },
+    {
+     "offset": 17514345,
+     "japanese": "倒れる：左",
+     "english": "Fall: left"
+    },
+    {
+     "offset": 17514361,
+     "japanese": "倒れる：右",
+     "english": "Fall: right"
+    },
+    {
+     "offset": 17514377,
+     "japanese": "倒れる：仰向け",
+     "english": "Fall: on back"
+    },
+    {
+     "offset": 17514399,
+     "japanese": "倒れる：うつ伏せ",
+     "english": "Fall: face down"
+    },
+    {
+     "offset": 17514424,
+     "japanese": "倒れるから待機へ",
+     "english": "Fall to idle"
+    },
+    {
+     "offset": 17514449,
+     "japanese": "倒れる：横（207船イベント）",
+     "english": "Fall: side (207 ship)"
+    },
+    {
+     "offset": 17514489,
+     "japanese": "倒れる：後（207船イベント）",
+     "english": "Fall: back (207 ship)"
+    },
+    {
+     "offset": 17514529,
+     "japanese": "倒れる：前x",
+     "english": "Fall: fwd x"
+    },
+    {
+     "offset": 17514546,
+     "japanese": "倒れる：後x",
+     "english": "Fall: back x"
+    },
+    {
+     "offset": 17514563,
+     "japanese": "倒れる：左x",
+     "english": "Fall: left x"
+    },
+    {
+     "offset": 17514580,
+     "japanese": "倒れる：右x",
+     "english": "Fall: right x"
+    },
+    {
+     "offset": 17514597,
+     "japanese": "調べもの開始",
+     "english": "Search start"
+    },
+    {
+     "offset": 17514616,
+     "japanese": "調べもの中",
+     "english": "Searching"
+    },
+    {
+     "offset": 17514632,
+     "japanese": "調べもの終了",
+     "english": "Search end"
+    },
+    {
+     "offset": 17514651,
+     "japanese": "四つんばい調べもの開始",
+     "english": "Crawl search start"
+    },
+    {
+     "offset": 17514685,
+     "japanese": "四つんばい調べもの中",
+     "english": "Crawl searching"
+    },
+    {
+     "offset": 17514716,
+     "japanese": "四つんばい調べもの終了",
+     "english": "Crawl search end"
+    },
+    {
+     "offset": 17514750,
+     "japanese": "タックル開始",
+     "english": "Tackle start"
+    },
+    {
+     "offset": 17514769,
+     "japanese": "NPC213のつかみかかり",
+     "english": "NPC213 grab attempt"
+    },
+    {
+     "offset": 17514797,
+     "japanese": "NPC213のつかみ中",
+     "english": "NPC213 grabbing"
+    },
+    {
+     "offset": 17514819,
+     "japanese": "NPC213のつかみから逃れる",
+     "english": "NPC213 grab escape"
+    },
+    {
+     "offset": 17514853,
+     "japanese": "E009前方くらい",
+     "english": "E009 hit front"
+    },
+    {
+     "offset": 17514873,
+     "japanese": "E009後方くらい",
+     "english": "E009 hit back"
+    },
+    {
+     "offset": 17514893,
+     "japanese": "匍匐",
+     "english": "Prone"
+    },
+    {
+     "offset": 17514965,
+     "japanese": "イベント:プレイヤーが死んだとき",
+     "english": "Event: player died"
+    },
+    {
+     "offset": 17515012,
+     "japanese": "イベント:リアクション",
+     "english": "Event: reaction"
+    },
+    {
+     "offset": 17533879,
+     "japanese": "エラー",
+     "english": "Error"
+    },
+    {
+     "offset": 17534457,
+     "japanese": "WARNING:[UnitMrPlayer]フォークリフトの転倒は想定外です！",
+     "english": "WARNING:[UnitMrPlayer] Forklift tipping over is unexpected!"
+    },
+    {
+     "offset": 17534869,
+     "japanese": "遷移不可能な状態です。",
+     "english": "State cannot be entered."
+    },
+    {
+     "offset": 17535974,
+     "japanese": "無効な性別です。男性キャラクターとして設定します。",
+     "english": "Invalid gender. Setting as a male character."
+    },
+    {
+     "offset": 17536845,
+     "japanese": "アイテムのダメージ状態が不正です",
+     "english": "Invalid item damage state"
+    },
+    {
+     "offset": 17536894,
+     "japanese": "無効なボディです。",
+     "english": "Invalid body."
+    },
+    {
+     "offset": 17584230,
+     "japanese": "[UnitMrNpc213]投げ演出場所 Pos(%f, %f, %f), Rot(%f, %f, %f)",
+     "english": "[UnitMrNpc213] Throw position Pos(%f, %f, %f), Rot(%f, %f, %f)"
+    },
+    {
+     "offset": 17584350,
+     "japanese": "[UnitMrNpc213]投げ演出場所が取得できませんでした",
+     "english": "[UnitMrNpc213] Could not get the throw position"
+    },
+    {
+     "offset": 17584416,
+     "japanese": "UnitNpc213AttackPositionManagerが存在しません！",
+     "english": "UnitNpc213AttackPositionManager does not exist!"
+    },
+    {
+     "offset": 17589758,
+     "japanese": "無効なTransitionDataです：srcNodeが見つかりませんでした。",
+     "english": "Invalid TransitionData: srcNode not found."
+    },
+    {
+     "offset": 17589834,
+     "japanese": "無効なTransitionDataです：dstNodeが見つかりませんでした。",
+     "english": "Invalid TransitionData: dstNode not found."
+    },
+    {
+     "offset": 17589982,
+     "japanese": "ActionNodeプールが不足しています。",
+     "english": "Not enough ActionNode pool."
+    },
+    {
+     "offset": 17595063,
+     "japanese": "pRayResultがNULLです。",
+     "english": "pRayResult is NULL."
+    },
+    {
+     "offset": 17595680,
+     "japanese": "モーションシーケンスモジュール初期化失敗",
+     "english": "Failed to init motion sequence module"
+    },
+    {
+     "offset": 17596486,
+     "japanese": "物理有効切替",
+     "english": "Toggle physics"
+    },
+    {
+     "offset": 17596745,
+     "japanese": "物理有効化",
+     "english": "Enable physics"
+    },
+    {
+     "offset": 17596761,
+     "japanese": "物理無効化",
+     "english": "Disable physics"
+    },
+    {
+     "offset": 17596777,
+     "japanese": "衝撃を与える",
+     "english": "Apply impact"
+    },
+    {
+     "offset": 17603755,
+     "japanese": "発砲開始",
+     "english": "Start firing"
+    },
+    {
+     "offset": 17603998,
+     "japanese": "足場コンテナに置き換え",
+     "english": "Replace with scaffold container"
+    },
+    {
+     "offset": 17604032,
+     "japanese": "物理コンテナに置き換え",
+     "english": "Replace with physics container"
+    },
+    {
+     "offset": 17604185,
+     "japanese": "コンテナの物理有効切替",
+     "english": "Toggle container physics"
+    },
+    {
+     "offset": 17604840,
+     "japanese": "UnitEvE006AttackBusが既に作成されています。",
+     "english": "UnitEvE006AttackBus already created."
+    },
+    {
+     "offset": 17609272,
+     "japanese": "場所未設定",
+     "english": "No location"
+    },
+    {
+     "offset": 17609288,
+     "japanese": "%d日目",
+     "english": "Day %d"
+    },
+    {
+     "offset": 17609297,
+     "japanese": "午前",
+     "english": "AM"
+    },
+    {
+     "offset": 17609304,
+     "japanese": "午後",
+     "english": "PM"
+    },
+    {
+     "offset": 17609316,
+     "japanese": "天気アイコンテクスチャが解放されていません",
+     "english": "Weather icon texture not released"
+    },
+    {
+     "offset": 17609380,
+     "japanese": "天気アイコンテクスチャの作成に失敗しました \n %s",
+     "english": "Failed to create weather icon texture \n %s"
+    },
+    {
+     "offset": 17610690,
+     "japanese": "論理演算指定が間違っています",
+     "english": "Invalid logical operator"
+    },
+    {
+     "offset": 17611109,
+     "japanese": "目的地に行け！　目的地に行け！　目的地に行け！　目的地に行け！",
+     "english": "Go to the destination! Go to the destination! Go to the destination!"
+    },
+    {
+     "offset": 17611211,
+     "japanese": "オープン",
+     "english": "Open"
+    },
+    {
+     "offset": 17611224,
+     "japanese": "クローズ",
+     "english": "Close"
+    },
+    {
+     "offset": 17611467,
+     "japanese": "不正な選択肢の状態です。",
+     "english": "Invalid choice state."
+    },
+    {
+     "offset": 17611724,
+     "japanese": "%s ( %d -> %d ) : 入力されたインデックスを修正しました",
+     "english": "%s ( %d -> %d ) : corrected the input index"
+    },
+    {
+     "offset": 17611818,
+     "japanese": "%s ( %d ) : 入力されたインデックスは表示されないデータです",
+     "english": "%s ( %d ) : the input index is data that is not displayed"
+    },
+    {
+     "offset": 17611900,
+     "japanese": "(%d >= 0) _cursorTargetIndex がマイナス値になっている",
+     "english": "(%d >= 0) _cursorTargetIndex is negative"
+    },
+    {
+     "offset": 17611966,
+     "japanese": "(%d < %d) _cursorTargetIndex が _visibleItemCount 以上になっている",
+     "english": "(%d < %d) _cursorTargetIndex is >= _visibleItemCount"
+    },
+    {
+     "offset": 17612042,
+     "japanese": "%d / %d : indexOrg か _cursorTargetIndex がおかしい",
+     "english": "%d / %d : indexOrg or _cursorTargetIndex is wrong"
+    },
+    {
+     "offset": 17614959,
+     "japanese": "UnitHudDemoSkipが多重に作成されている可能性があります",
+     "english": "UnitHudDemoSkip may have been created more than once"
+    },
+    {
+     "offset": 17615032,
+     "japanese": "UnitHudDemoSkipが想定外の所で削除されました",
+     "english": "UnitHudDemoSkip was deleted unexpectedly"
+    },
+    {
+     "offset": 17615669,
+     "japanese": "[%d][%d]記事いろいろ・・・・・・・・",
+     "english": "[%d][%d]Various articles........"
+    },
+    {
+     "offset": 17615902,
+     "japanese": "？？？？？？？？",
+     "english": "????????"
+    },
+    {
+     "offset": 17616367,
+     "japanese": "Stage10前編",
+     "english": "Stage10 Part1"
+    },
+    {
+     "offset": 17616437,
+     "japanese": "Stage10後編a",
+     "english": "Stage10 Part2a"
+    },
+    {
+     "offset": 17616452,
+     "japanese": "Stage10後編b",
+     "english": "Stage10 Part2b"
+    },
+    {
+     "offset": 17616467,
+     "japanese": "夜の街に現れた巨大な影",
+     "english": "Nightfall's Giant Shadow"
+    },
+    {
+     "offset": 17616501,
+     "japanese": "地下に蠢く影",
+     "english": "Shadows Below"
+    },
+    {
+     "offset": 17616520,
+     "japanese": "橋を覆う巨大な影",
+     "english": "Shadow over the Bridge"
+    },
+    {
+     "offset": 17616545,
+     "japanese": "忍び込み奪う影",
+     "english": "Stealing Shadows"
+    },
+    {
+     "offset": 17616567,
+     "japanese": "抑えきれぬ衝動が生み出す影",
+     "english": "Shadow of Wild Desire"
+    },
+    {
+     "offset": 17616607,
+     "japanese": "夜の海、波音、そして影",
+     "english": "Night Sea, Waves, Shadows"
+    },
+    {
+     "offset": 17616641,
+     "japanese": "入り乱れ激しく争う影",
+     "english": "Clashing Shadows"
+    },
+    {
+     "offset": 17616672,
+     "japanese": "禍々しい金色の影",
+     "english": "Ominous Golden Shadow"
+    },
+    {
+     "offset": 17616697,
+     "japanese": "それぞれの正義、ぶつかり合う影",
+     "english": "Shadows of Rival Justice"
+    },
+    {
+     "offset": 17616743,
+     "japanese": "旺盛な食欲を持って飛来する影",
+     "english": "Hungry Shadows Take Flight"
+    },
+    {
+     "offset": 17616786,
+     "japanese": "気がつけばすぐそばに影",
+     "english": "A Shadow at Your Side"
+    },
+    {
+     "offset": 17616820,
+     "japanese": "あらゆるものを斬る影",
+     "english": "All-Cutting Shadow"
+    },
+    {
+     "offset": 17616851,
+     "japanese": "ただひたすら迫りくる影",
+     "english": "Relentless Shadow"
+    },
+    {
+     "offset": 17616885,
+     "japanese": "全てを踏みにじる圧倒的な影",
+     "english": "The Shadow That Crushes All"
+    },
+    {
+     "offset": 17616925,
+     "japanese": "正面から向かってくる大きな影",
+     "english": "A Giant Shadow Approaches"
+    },
+    {
+     "offset": 17616968,
+     "japanese": "空より舞い降りる巨大な影",
+     "english": "Giant Shadow from the Sky"
+    },
+    {
+     "offset": 17617005,
+     "japanese": "巨影ニ沈ム都市",
+     "english": "City in Shadow"
+    },
+    {
+     "offset": 17617027,
+     "japanese": "空高く舞い上がる影",
+     "english": "Soaring Shadow"
+    },
+    {
+     "offset": 17617055,
+     "japanese": "内面に滑り込む影",
+     "english": "Shadow Within"
+    },
+    {
+     "offset": 17617759,
+     "japanese": "UnitHudLoadingScreenが多重に作成されている可能性があります",
+     "english": "UnitHudLoadingScreen may have been created more than once"
+    },
+    {
+     "offset": 17617837,
+     "japanese": "UnitHudLoadingCircleが多重に作成されている可能性があります",
+     "english": "UnitHudLoadingCircle may have been created more than once"
+    },
+    {
+     "offset": 17617915,
+     "japanese": "UnitHudLoadingTipsが多重に作成されている可能性があります",
+     "english": "UnitHudLoadingTips may have been created more than once"
+    },
+    {
+     "offset": 17617991,
+     "japanese": "初期化されていません",
+     "english": "Not initialized"
+    },
+    {
+     "offset": 17618022,
+     "japanese": "UnitHudLoadingScreenが想定外の所で削除されました",
+     "english": "UnitHudLoadingScreen was deleted unexpectedly"
+    },
+    {
+     "offset": 17618085,
+     "japanese": "UnitHudLoadingCircleが想定外の所で削除されました",
+     "english": "UnitHudLoadingCircle was deleted unexpectedly"
+    },
+    {
+     "offset": 17618148,
+     "japanese": "UnitHudLoadingTipsが想定外の所で削除されました",
+     "english": "UnitHudLoadingTips was deleted unexpectedly"
+    },
+    {
+     "offset": 17618430,
+     "japanese": "[UnitMailMenu] openDetail(s32 index): index が不正",
+     "english": "[UnitMailMenu] openDetail(s32 index): bad index"
+    },
+    {
+     "offset": 17618511,
+     "japanese": "返信は…",
+     "english": "Reply..."
+    },
+    {
+     "offset": 17618524,
+     "japanese": "返信選択",
+     "english": "Pick a reply"
+    },
+    {
+     "offset": 17618549,
+     "japanese": "決定",
+     "english": "OK"
+    },
+    {
+     "offset": 17618556,
+     "japanese": "選択",
+     "english": "Select"
+    },
+    {
+     "offset": 17618563,
+     "japanese": "返信決定",
+     "english": "Send reply"
+    },
+    {
+     "offset": 17618823,
+     "japanese": "返信1",
+     "english": "Reply 1"
+    },
+    {
+     "offset": 17618831,
+     "japanese": "返信2",
+     "english": "Reply 2"
+    },
+    {
+     "offset": 17618839,
+     "japanese": "返信3",
+     "english": "Reply 3"
+    },
+    {
+     "offset": 17618847,
+     "japanese": "返信4",
+     "english": "Reply 4"
+    },
+    {
+     "offset": 17618855,
+     "japanese": "返信5",
+     "english": "Reply 5"
+    },
+    {
+     "offset": 17618863,
+     "japanese": "返信6",
+     "english": "Reply 6"
+    },
+    {
+     "offset": 17618871,
+     "japanese": "タイトル0",
+     "english": "Title 0"
+    },
+    {
+     "offset": 17618885,
+     "japanese": "送信者0",
+     "english": "Sender 0"
+    },
+    {
+     "offset": 17618907,
+     "japanese": "本文0",
+     "english": "Body 0"
+    },
+    {
+     "offset": 17618915,
+     "japanese": "タイトル1",
+     "english": "Title 1"
+    },
+    {
+     "offset": 17618929,
+     "japanese": "送信者1",
+     "english": "Sender 1"
+    },
+    {
+     "offset": 17618940,
+     "japanese": "本文1",
+     "english": "Body 1"
+    },
+    {
+     "offset": 17618948,
+     "japanese": "タイトル2",
+     "english": "Title 2"
+    },
+    {
+     "offset": 17618962,
+     "japanese": "送信者2",
+     "english": "Sender 2"
+    },
+    {
+     "offset": 17618973,
+     "japanese": "本文2",
+     "english": "Body 2"
+    },
+    {
+     "offset": 17618981,
+     "japanese": "タイトル3",
+     "english": "Title 3"
+    },
+    {
+     "offset": 17618995,
+     "japanese": "送信者3",
+     "english": "Sender 3"
+    },
+    {
+     "offset": 17619006,
+     "japanese": "本文3",
+     "english": "Body 3"
+    },
+    {
+     "offset": 17619014,
+     "japanese": "タイトル4",
+     "english": "Title 4"
+    },
+    {
+     "offset": 17619028,
+     "japanese": "送信者4",
+     "english": "Sender 4"
+    },
+    {
+     "offset": 17619039,
+     "japanese": "本文4",
+     "english": "Body 4"
+    },
+    {
+     "offset": 17619047,
+     "japanese": "タイトル5",
+     "english": "Title 5"
+    },
+    {
+     "offset": 17619061,
+     "japanese": "送信者5",
+     "english": "Sender 5"
+    },
+    {
+     "offset": 17619072,
+     "japanese": "本文5",
+     "english": "Body 5"
+    },
+    {
+     "offset": 17619080,
+     "japanese": "タイトル6",
+     "english": "Title 6"
+    },
+    {
+     "offset": 17619094,
+     "japanese": "送信者6",
+     "english": "Sender 6"
+    },
+    {
+     "offset": 17619105,
+     "japanese": "本文6",
+     "english": "Body 6"
+    },
+    {
+     "offset": 17619113,
+     "japanese": "タイトル7",
+     "english": "Title 7"
+    },
+    {
+     "offset": 17619127,
+     "japanese": "送信者7",
+     "english": "Sender 7"
+    },
+    {
+     "offset": 17619138,
+     "japanese": "本文7",
+     "english": "Body 7"
+    },
+    {
+     "offset": 17619146,
+     "japanese": "タイトル8",
+     "english": "Title 8"
+    },
+    {
+     "offset": 17619160,
+     "japanese": "送信者8",
+     "english": "Sender 8"
+    },
+    {
+     "offset": 17619171,
+     "japanese": "本文8",
+     "english": "Body 8"
+    },
+    {
+     "offset": 17619179,
+     "japanese": "タイトル9",
+     "english": "Title 9"
+    },
+    {
+     "offset": 17619193,
+     "japanese": "送信者9",
+     "english": "Sender 9"
+    },
+    {
+     "offset": 17619204,
+     "japanese": "本文9",
+     "english": "Body 9"
+    },
+    {
+     "offset": 17619212,
+     "japanese": "タイトル10",
+     "english": "Title 10"
+    },
+    {
+     "offset": 17619227,
+     "japanese": "送信者10",
+     "english": "Sender 10"
+    },
+    {
+     "offset": 17619239,
+     "japanese": "本文10",
+     "english": "Body 10"
+    },
+    {
+     "offset": 17619248,
+     "japanese": "タイトル11",
+     "english": "Title 11"
+    },
+    {
+     "offset": 17619263,
+     "japanese": "送信者11",
+     "english": "Sender 11"
+    },
+    {
+     "offset": 17619275,
+     "japanese": "本文11",
+     "english": "Body 11"
+    },
+    {
+     "offset": 17619284,
+     "japanese": "タイトル12",
+     "english": "Title 12"
+    },
+    {
+     "offset": 17619299,
+     "japanese": "送信者12",
+     "english": "Sender 12"
+    },
+    {
+     "offset": 17619311,
+     "japanese": "本文12",
+     "english": "Body 12"
+    },
+    {
+     "offset": 17619818,
+     "japanese": "巨影",
+     "english": "Kyoei"
+    },
+    {
+     "offset": 17619840,
+     "japanese": "#巨影",
+     "english": "#Kyoei"
+    },
+    {
+     "offset": 17620224,
+     "japanese": "ＨＰ%+d",
+     "english": "HP %+d"
+    },
+    {
+     "offset": 17620234,
+     "japanese": "ＳＴ%+d",
+     "english": "ST %+d"
+    },
+    {
+     "offset": 17621409,
+     "japanese": "[i1]装備",
+     "english": "[i1]Equip"
+    },
+    {
+     "offset": 17621879,
+     "japanese": "%d年%d月%d日",
+     "english": "%d/%d/%d"
+    },
+    {
+     "offset": 17621940,
+     "japanese": "%d月%d日  %d:%02d配信",
+     "english": "%d/%d  %d:%02d"
+    },
+    {
+     "offset": 17622049,
+     "japanese": "広告データが不正です",
+     "english": "Invalid ad data"
+    },
+    {
+     "offset": 17622080,
+     "japanese": "アイテムデータが不正です",
+     "english": "Invalid item data"
+    },
+    {
+     "offset": 17622428,
+     "japanese": "%d年%d月%d日　%d:%02d配信",
+     "english": "%d/%d/%d  %d:%02d"
+    },
+    {
+     "offset": 17622460,
+     "japanese": "[UnitHudIntermission] GxModMovieの初期化待ち",
+     "english": "[UnitHudIntermission] Waiting for GxModMovie init"
+    },
+    {
+     "offset": 17622511,
+     "japanese": "[UnitHudIntermission] GxModMovieの初期化タイムアウト",
+     "english": "[UnitHudIntermission] GxModMovie init timed out"
+    },
+    {
+     "offset": 17622574,
+     "japanese": "[UnitHudIntermission] GxModMovieの初期化に失敗",
+     "english": "[UnitHudIntermission] GxModMovie init failed"
+    },
+    {
+     "offset": 17622628,
+     "japanese": "[UnitHudIntermission] GxModMovieの初期化成功",
+     "english": "[UnitHudIntermission] GxModMovie init succeeded"
+    },
+    {
+     "offset": 17622679,
+     "japanese": "[UnitHudIntermission] ムービー再生リクエスト",
+     "english": "[UnitHudIntermission] Movie playback request"
+    },
+    {
+     "offset": 17622848,
+     "japanese": "[UnitHudIntermission] GxModMovieの再生準備待ち",
+     "english": "[UnitHudIntermission] Waiting GxModMovie play prep"
+    },
+    {
+     "offset": 17622902,
+     "japanese": "[UnitHudIntermission] 再生状態",
+     "english": "[UnitHudIntermission] Play state"
+    },
+    {
+     "offset": 17623052,
+     "japanese": "[UnitHudIntermission] ムービー再生再リクエスト",
+     "english": "[UnitHudIntermission] Movie playback re-request"
+    },
+    {
+     "offset": 17623111,
+     "japanese": "[UnitHudIntermission] GxModMovieのポーズ待ち",
+     "english": "[UnitHudIntermission] Waiting for GxModMovie pause"
+    },
+    {
+     "offset": 17623275,
+     "japanese": "[UnitHudIntermission] ムービー初期化完了",
+     "english": "[UnitHudIntermission] Movie init complete"
+    },
+    {
+     "offset": 17623993,
+     "japanese": "録画終了待ち",
+     "english": "Rec end wait"
+    },
+    {
+     "offset": 17624027,
+     "japanese": "[UnitHudIntermission] 再生すべき動画が見つかりませんでした。",
+     "english": "[UnitHudIntermission] No movie to play was found."
+    },
+    {
+     "offset": 17624150,
+     "japanese": "[UnitHudIntermission] GxModMovieの初期化に失敗しました。",
+     "english": "[UnitHudIntermission] GxModMovie init failed."
+    },
+    {
+     "offset": 17624281,
+     "japanese": "getStageClearSavePointId( %d, %d )\n_stageIdNext が想定外",
+     "english": "getStageClearSavePointId( %d, %d )\n_stageIdNext unexpected"
+    },
+    {
+     "offset": 17624977,
+     "japanese": "【動画】突然現れた巨大怪獣衝撃の瞬間",
+     "english": "Video: A Giant Monster Suddenly Appears"
+    },
+    {
+     "offset": 17625101,
+     "japanese": "%ITEMを手に入れた!",
+     "english": "Obtained %ITEM!"
+    },
+    {
+     "offset": 17625297,
+     "japanese": "無効なALING_TYPEです。",
+     "english": "Invalid ALING_TYPE."
+    },
+    {
+     "offset": 17625326,
+     "japanese": "無効なウィンドウタイプです。",
+     "english": "Invalid window type."
+    },
+    {
+     "offset": 17626114,
+     "japanese": "二重に作成された可能性があります",
+     "english": "May have been created twice"
+    },
+    {
+     "offset": 17626181,
+     "japanese": "すでにUnitHudNumericKeyが作成されています",
+     "english": "UnitHudNumericKey already created"
+    },
+    {
+     "offset": 17626319,
+     "japanese": "テスト",
+     "english": "Test"
+    },
+    {
+     "offset": 17626409,
+     "japanese": "既に初期化済みです",
+     "english": "Already initialized"
+    },
+    {
+     "offset": 17626437,
+     "japanese": "UnitHudPauseが多重に作成されている可能性があります",
+     "english": "UnitHudPause may have been created more than once"
+    },
+    {
+     "offset": 17626507,
+     "japanese": "初期化されていません。",
+     "english": "Not initialized."
+    },
+    {
+     "offset": 17626541,
+     "japanese": "UnitHudPauseが想定外の所で削除されました",
+     "english": "UnitHudPause was deleted unexpectedly"
+    },
+    {
+     "offset": 17628596,
+     "japanese": "[UnitHudStageTitle]Open前にCloseを呼び出されている可能性があります",
+     "english": "[UnitHudStageTitle] Close may have been called before Open"
+    },
+    {
+     "offset": 17628840,
+     "japanese": "[UnitHudStore]ストアのモードが不正です",
+     "english": "[UnitHudStore] Invalid store mode"
+    },
+    {
+     "offset": 17628912,
+     "japanese": "売切れ",
+     "english": "Sold out"
+    },
+    {
+     "offset": 17628926,
+     "japanese": "[#ff88ff88]%s[/#]×%d を売却します。\nよろしいでしょうか？",
+     "english": "Sell [#ff88ff88]%s[/#] x%d?\nAre you sure?"
+    },
+    {
+     "offset": 17629025,
+     "japanese": "所持金が不足しています",
+     "english": "Not enough money."
+    },
+    {
+     "offset": 17629059,
+     "japanese": "このアイテムはこれ以上所持することはできません",
+     "english": "You cannot carry any more of this item."
+    },
+    {
+     "offset": 17629129,
+     "japanese": "[#ff88ff88]%s[/#]×%d を購入します。\nよろしいでしょうか？",
+     "english": "Buy [#ff88ff88]%s[/#] x%d?\nAre you sure?"
+    },
+    {
+     "offset": 17629237,
+     "japanese": "HP値を全回復",
+     "english": "Restore full HP"
+    },
+    {
+     "offset": 17629426,
+     "japanese": "売却数を入力してください",
+     "english": "Enter quantity to sell."
+    },
+    {
+     "offset": 17629552,
+     "japanese": "今身に着けているコスチュームを修理しますか？",
+     "english": "Repair the outfit you are wearing?"
+    },
+    {
+     "offset": 17629619,
+     "japanese": "修理していいですか？",
+     "english": "Proceed with repairs?"
+    },
+    {
+     "offset": 17632137,
+     "japanese": "背景画像のパスが不正の可能性があります",
+     "english": "The background image path may be invalid"
+    },
+    {
+     "offset": 17632195,
+     "japanese": "ページ数が不正です",
+     "english": "Invalid page count"
+    },
+    {
+     "offset": 17632267,
+     "japanese": "装備解除",
+     "english": "Unequip"
+    },
+    {
+     "offset": 17632280,
+     "japanese": "装備",
+     "english": "Equip"
+    },
+    {
+     "offset": 17632287,
+     "japanese": "使う",
+     "english": "Use"
+    },
+    {
+     "offset": 17632294,
+     "japanese": "読む",
+     "english": "Read"
+    },
+    {
+     "offset": 17632301,
+     "japanese": "メール",
+     "english": "Mail"
+    },
+    {
+     "offset": 17632311,
+     "japanese": "詳細",
+     "english": "Info"
+    },
+    {
+     "offset": 17632332,
+     "japanese": "一定時間HP減少%d%%に軽減",
+     "english": "Temp. HP loss reduced to %d%%"
+    },
+    {
+     "offset": 17632366,
+     "japanese": "一定時間ST減少%d%%に軽減",
+     "english": "Temp. ST loss reduced to %d%%"
+    },
+    {
+     "offset": 17632400,
+     "japanese": "HP全回復",
+     "english": "Full HP"
+    },
+    {
+     "offset": 17632412,
+     "japanese": "HP値%d回復",
+     "english": "HP +%d"
+    },
+    {
+     "offset": 17632469,
+     "japanese": "読み物背景画像読み込みが多重に行われた可能性があります",
+     "english": "Reading background image may have been loaded twice"
+    },
+    {
+     "offset": 17632570,
+     "japanese": "[#ff00ff00]%s[/#]を使用しますか？",
+     "english": "Use [#ff00ff00]%s[/#]?"
+    },
+    {
+     "offset": 17632612,
+     "japanese": "%d個→%d個",
+     "english": "%d -> %d"
+    },
+    {
+     "offset": 17632716,
+     "japanese": "ＨＰ最大値　<NOW_HP>　→　<NEW_HP>　(<DIFF_HP>)",
+     "english": "Max HP <NOW_HP> -> <NEW_HP> (<DIFF_HP>)"
+    },
+    {
+     "offset": 17632774,
+     "japanese": "ＳＴ最大値　<NOW_ST>　→　<NEW_ST>　(<DIFF_ST>)",
+     "english": "Max ST <NOW_ST> -> <NEW_ST> (<DIFF_ST>)"
+    },
+    {
+     "offset": 17632892,
+     "japanese": "一定時間、ＨＰの減少が<PERCENT_HP>％に軽減",
+     "english": "Temporarily reduce HP loss to <PERCENT_HP>%."
+    },
+    {
+     "offset": 17632950,
+     "japanese": "一定時間、ＳＴの減少が<PERCENT_ST>％に軽減",
+     "english": "Temporarily reduce ST loss to <PERCENT_ST>%."
+    },
+    {
+     "offset": 17633034,
+     "japanese": "ＨＰ値を<RECOVERY_VAL>回復",
+     "english": "Restore <RECOVERY_VAL> HP"
+    },
+    {
+     "offset": 17633067,
+     "japanese": "ＨＰ値を全回復",
+     "english": "Restore full HP"
+    },
+    {
+     "offset": 17633516,
+     "japanese": "ステータス",
+     "english": "Status"
+    },
+    {
+     "offset": 17634557,
+     "japanese": "St10前",
+     "english": "St10-1"
+    },
+    {
+     "offset": 17634565,
+     "japanese": "St10後a",
+     "english": "St10-2a"
+    },
+    {
+     "offset": 17634574,
+     "japanese": "St10後b",
+     "english": "St10-2b"
+    },
+    {
+     "offset": 17634666,
+     "japanese": "hud取得時のオーバーフロー",
+     "english": "Overflow when getting hud"
+    },
+    {
+     "offset": 17635052,
+     "japanese": "既に起動済み",
+     "english": "Already started"
+    },
+    {
+     "offset": 17635071,
+     "japanese": "起動していない",
+     "english": "Not started"
+    },
+    {
+     "offset": 17635358,
+     "japanese": "シェーダコードが無効です",
+     "english": "Invalid shader code"
+    },
+    {
+     "offset": 17635395,
+     "japanese": "未定義の material functions handle",
+     "english": "Undefined material functions handle"
+    },
+    {
+     "offset": 17635490,
+     "japanese": "パラメータ反映 PARAM_0",
+     "english": "Apply parameter PARAM_0"
+    },
+    {
+     "offset": 17635520,
+     "japanese": "パラメータ反映 PARAM_1",
+     "english": "Apply parameter PARAM_1"
+    },
+    {
+     "offset": 17635550,
+     "japanese": "パラメータ反映 PARAM_2",
+     "english": "Apply parameter PARAM_2"
+    },
+    {
+     "offset": 17635580,
+     "japanese": "パラメータ反映 PARAM_3",
+     "english": "Apply parameter PARAM_3"
+    },
+    {
+     "offset": 17635610,
+     "japanese": "パラメータ反映 PARAM_4",
+     "english": "Apply parameter PARAM_4"
+    },
+    {
+     "offset": 17635640,
+     "japanese": "パラメータ反映 PARAM_5",
+     "english": "Apply parameter PARAM_5"
+    },
+    {
+     "offset": 17635670,
+     "japanese": "パラメータ複製 PARAM_0",
+     "english": "Copy parameter PARAM_0"
+    },
+    {
+     "offset": 17635700,
+     "japanese": "パラメータ複製 PARAM_1",
+     "english": "Copy parameter PARAM_1"
+    },
+    {
+     "offset": 17635730,
+     "japanese": "パラメータ複製 PARAM_2",
+     "english": "Copy parameter PARAM_2"
+    },
+    {
+     "offset": 17635760,
+     "japanese": "パラメータ複製 PARAM_3",
+     "english": "Copy parameter PARAM_3"
+    },
+    {
+     "offset": 17635790,
+     "japanese": "パラメータ複製 PARAM_4",
+     "english": "Copy parameter PARAM_4"
+    },
+    {
+     "offset": 17635820,
+     "japanese": "パラメータ複製 PARAM_5",
+     "english": "Copy parameter PARAM_5"
+    },
+    {
+     "offset": 17640324,
+     "japanese": "[UnitPictureData][%d] 書き出し完了(%s)",
+     "english": "[UnitPictureData][%d] Export complete(%s)"
+    },
+    {
+     "offset": 17640369,
+     "japanese": "[UnitPictureData][%d] 書き出し失敗(%s)",
+     "english": "[UnitPictureData][%d] Export failed(%s)"
+    },
+    {
+     "offset": 17640414,
+     "japanese": "UserIdの取得に失敗",
+     "english": "Failed to get UserId"
+    },
+    {
+     "offset": 17640707,
+     "japanese": "PictureDataの作成に失敗しました。",
+     "english": "Failed to create PictureData."
+    },
+    {
+     "offset": 17640889,
+     "japanese": "[UnitPictureData] テクスチャがありません",
+     "english": "[UnitPictureData] No texture"
+    },
+    {
+     "offset": 17640941,
+     "japanese": "[UnitPictureData] テクスチャのマッピングに失敗しました",
+     "english": "[UnitPictureData] Failed to map texture"
+    },
+    {
+     "offset": 17641324,
+     "japanese": "非表示",
+     "english": "Hide"
+    },
+    {
+     "offset": 17641334,
+     "japanese": "表示",
+     "english": "Show"
+    },
+    {
+     "offset": 17643423,
+     "japanese": "ダメージリセット",
+     "english": "Reset damage"
+    },
+    {
+     "offset": 17643448,
+     "japanese": "ダメージ1段階アップ",
+     "english": "Damage up one stage"
+    },
+    {
+     "offset": 17644469,
+     "japanese": "専用カメラモードON",
+     "english": "Dedicated camera ON"
+    },
+    {
+     "offset": 17644496,
+     "japanese": "専用カメラモードOFF",
+     "english": "Dedicated camera OFF"
+    },
+    {
+     "offset": 17644524,
+     "japanese": "コンテナアタッチ",
+     "english": "Attach container"
+    },
+    {
+     "offset": 17644549,
+     "japanese": "コンテナデタッチ",
+     "english": "Detach container"
+    },
+    {
+     "offset": 17645005,
+     "japanese": "ゼロベクトルに長さを設定しようとしました",
+     "english": "Tried to set a length on a zero vector"
+    },
+    {
+     "offset": 17645125,
+     "japanese": "指定されたインデックスがオーバーしています",
+     "english": "The specified index is out of range"
+    },
+    {
+     "offset": 17650875,
+     "japanese": "三鷹へ",
+     "english": "To Mitaka"
+    },
+    {
+     "offset": 17650885,
+     "japanese": "北極へ",
+     "english": "To pole"
+    },
+    {
+     "offset": 17650895,
+     "japanese": "皆既日食2009/7/22",
+     "english": "Eclipse 2009/7/22"
+    },
+    {
+     "offset": 17650917,
+     "japanese": "マヤ歴の終わり2012/12/21",
+     "english": "End of Maya calendar 2012/12/21"
+    },
+    {
+     "offset": 17651837,
+     "japanese": "[UnitRTDSkip] mUserCounter が不正です",
+     "english": "[UnitRTDSkip] mUserCounter is invalid"
+    },
+    {
+     "offset": 17652541,
+     "japanese": "ゼロベクトルを正規化しようとしました",
+     "english": "Tried to normalize a zero vector"
+    },
+    {
+     "offset": 17652640,
+     "japanese": "無効なサウンドタイプです。",
+     "english": "Invalid sound type."
+    },
+    {
+     "offset": 17652837,
+     "japanese": "未定義の関数です",
+     "english": "Undefined function"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/menu/collection/menu_collection.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "ff2696eec5879c04569606bbfc49e24e19a69cf77d8cc5af3ab7e27dd061bfb1",
+   "changes": [
+    {
+     "offset": 2374,
+     "japanese": "Stage10後編a",
+     "english": "St10 Pt2a"
+    },
+    {
+     "offset": 2843,
+     "japanese": "夜の街に現れた巨大な影あああああ",
+     "english": "Text"
+    },
+    {
+     "offset": 4888,
+     "japanese": "光の巨人現る！",
+     "english": "Giant of Light!"
+    },
+    {
+     "offset": 5370,
+     "japanese": "決定",
+     "english": "OK"
+    },
+    {
+     "offset": 6860,
+     "japanese": "？？？？",
+     "english": "????"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/menu/item/menu_item.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "73c44725d068c1f94a254e1f4b80ffaa87650bf82ba27a1240acb65debe79346",
+   "changes": [
+    {
+     "offset": 1245,
+     "japanese": "キャラクター操作",
+     "english": "Character controls"
+    },
+    {
+     "offset": 2271,
+     "japanese": "詳細",
+     "english": "Info"
+    },
+    {
+     "offset": 3336,
+     "japanese": "装備解除",
+     "english": "Unequip"
+    },
+    {
+     "offset": 4931,
+     "japanese": "装備解除",
+     "english": "Unequip"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/menu/item/menu_item_info.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "6578c34b844ec8a2d3c2051f3534e5d373c78e32d685dde594d261a3050d897a",
+   "changes": [
+    {
+     "offset": 859,
+     "japanese": "タイプ",
+     "english": "Type"
+    },
+    {
+     "offset": 1317,
+     "japanese": "あああああああああああああ         あああああああああああ あ     あ",
+     "english": "Text"
+    },
+    {
+     "offset": 1865,
+     "japanese": "パラメーター1",
+     "english": "Parameter 1"
+    },
+    {
+     "offset": 2339,
+     "japanese": "パラメーター2",
+     "english": "Parameter 2"
+    },
+    {
+     "offset": 2813,
+     "japanese": "パラメーター3あああああ",
+     "english": "Parameter 3"
+    },
+    {
+     "offset": 3297,
+     "japanese": "装備",
+     "english": "Equip"
+    },
+    {
+     "offset": 3754,
+     "japanese": "詳細",
+     "english": "Info"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/menu/item/menu_item_detail.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "fd523742caeb46cef1f1139aa26db72c427190e4b1f56395b9cd4dd7d9259d13",
+   "changes": [
+    {
+     "offset": 1123,
+     "japanese": "アイテム名アイテム名アイテム名アイテム    名アイテム名",
+     "english": "Item name"
+    },
+    {
+     "offset": 4485,
+     "japanese": "DESC説明文説明文説明文説       明文説明文説明文説明文 説   明   文説明文説明文説明 文 説  明 文  説明文説明文説 明 文説  明 文説  明文説明文 説 明文説  明 文",
+     "english": "Description"
+    },
+    {
+     "offset": 6386,
+     "japanese": "[i4] 戻る",
+     "english": "[i4] Back"
+    },
+    {
+     "offset": 7132,
+     "japanese": "[i1] 使う",
+     "english": "[i1] Use"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/Intermission/IM_save_dialog_2.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "ff0bfa981e1e588ce4c06974d9a41258b50bc95870322ee708b48af4f50ab902",
+   "changes": [
+    {
+     "offset": 672,
+     "japanese": "セーブ画面に進みます",
+     "english": "Open the save screen."
+    }
+   ]
+  },
+  {
+   "path": "common/hud/menu/item/menu_item_dialog.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "8c7257db3bcf67c0e6899deaab6170d995d6bd6e2eeded41f21d71a6ec25a9b1",
+   "changes": [
+    {
+     "offset": 2124,
+     "japanese": "使用",
+     "english": "Use"
+    },
+    {
+     "offset": 2577,
+     "japanese": "戻る",
+     "english": "Back"
+    },
+    {
+     "offset": 3032,
+     "japanese": "カラアゲ大臣（ぶどうシャーベット味）を使用しますか？",
+     "english": "Use Chicken Minister (Grape Sherbet)?"
+    },
+    {
+     "offset": 3564,
+     "japanese": "2個→1個",
+     "english": "2 -> 1"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/menu/item/menu_item_reading.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "cff6004c30b1b1c1b3f411d67a2f828d8f62c829e087f8434ef776b114f913c8",
+   "changes": [
+    {
+     "offset": 612,
+     "japanese": "アイテム名",
+     "english": "Item"
+    },
+    {
+     "offset": 1134,
+     "japanese": "あページおかきくけこあいうえおかきくけこあいうえおかきくけこ[~]あいうえおかきくけこあいうえおかきくけこあいうえおかきくけこあ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ",
+     "english": "Page 1 text[~][~][~][~][~][~][~][~][~][~][~][~][~][~][~][~]"
+    },
+    {
+     "offset": 1861,
+     "japanese": "２ページおかきくけこあいうえおかきくけこあいうえおかきくけこあいうえおかきくけこあいう           えおかきく    けこ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ",
+     "english": "Page 2 text[~][~][~][~][~][~][~][~][~][~][~][~][~][~][~]"
+    },
+    {
+     "offset": 2567,
+     "japanese": "３ページおかきくけこあいうえおかきくけこあいうえおかきくけこあいうえおかきくけこあいう           えおかきく    けこ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ",
+     "english": "Page 3 text[~][~][~][~][~][~][~][~][~][~][~][~][~][~][~]"
+    },
+    {
+     "offset": 3273,
+     "japanese": "４ページおかきくけこあいうえおかきくけこあいうえおかきくけこあいうえおかきくけこあいう           えおかきく    けこ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ",
+     "english": "Page 4 text[~][~][~][~][~][~][~][~][~][~][~][~][~][~][~]"
+    },
+    {
+     "offset": 3979,
+     "japanese": "５ページおかきくけこあいうえおかきくけこあいうえおかきくけこあいうえおかきくけこあいう           えおかきく    けこ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ",
+     "english": "Page 5 text[~][~][~][~][~][~][~][~][~][~][~][~][~][~][~]"
+    },
+    {
+     "offset": 4685,
+     "japanese": "６ページおかきくけこあいうえおかきくけこあいうえおかきくけこあいうえおかきくけこあいうえお かきくけこ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ",
+     "english": "Page 6 text[~][~][~][~][~][~][~][~][~][~][~][~][~][~][~]"
+    },
+    {
+     "offset": 5377,
+     "japanese": "７ページおかきくけこあいうえおかきくけこあいうえおかきくけこあいうえおかきくけこあいう           えおかきく    けこ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ",
+     "english": "Page 7 text[~][~][~][~][~][~][~][~][~][~][~][~][~][~][~]"
+    },
+    {
+     "offset": 6083,
+     "japanese": "８ページおかきくけこあいうえおかきくけこあいうえおかきくけこあいうえおかきくけこあいう           えおかきく    けこ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ[~]あ",
+     "english": "Page 8 text[~][~][~][~][~][~][~][~][~][~][~][~][~][~][~]"
+    },
+    {
+     "offset": 6787,
+     "japanese": "０／０",
+     "english": "0/0"
+    },
+    {
+     "offset": 9293,
+     "japanese": "[i5] ページ移動  [i2]戻る",
+     "english": "[i5] Pages  [i2] Back"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/operation/operation.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "a12c156091286994d524f956db75b692168895bf7e7542eac758cc961f008084",
+   "changes": [
+    {
+     "offset": 592,
+     "japanese": "[#ffffffff][i14][/#]フォーカス移動　[#ffffffff][i1][/#]詳細表示　[#ffffffff][i4][/#]アイテム交換　[#ffffffff][i3][/#]バックナンバー　[#ffffffff][i2][/#]次へ",
+     "english": "[#ffffffff][i14][/#]Move  [#ffffffff][i1][/#]Details  [#ffffffff][i4][/#]Trade  [#ffffffff][i3][/#]Archive  [#ffffffff][i2][/#]Next"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/Intermission/IM_detail_pr.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "4f8cc11bbc8dd0d541e379c6b955f7a6bb222900ada55f6a21083617be536f30",
+   "changes": [
+    {
+     "offset": 605,
+     "japanese": "タイトルあああああああああああああああああ",
+     "english": "Title"
+    },
+    {
+     "offset": 1403,
+     "japanese": "警官の帽子/男性警官の服/男性警官の靴",
+     "english": "Police Cap/Police Uniform/Police Shoes"
+    },
+    {
+     "offset": 3601,
+     "japanese": "１ ２ ３ ４ ５ ６ ７ ８ ９ １０ １１ １２ １３ ",
+     "english": "1 2 3 4 5 6 7 8 9 10 11 12 13"
+    },
+    {
+     "offset": 4398,
+     "japanese": "[i5]Twitter投稿　[i7] Fasebook投稿　[i2]閉じる",
+     "english": "[i5]Twitter  [i7] Facebook  [i2] Close"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/Intermission/IM_result_window.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "42fa83371064bb7cbb55c38b3aa4db1fb9a77ee0f1e112df9eb3a599fabca579",
+   "changes": [
+    {
+     "offset": 1074,
+     "japanese": "夜の街に現れた巨大な影",
+     "english": "Giant Shadow in the Night City"
+    },
+    {
+     "offset": 4007,
+     "japanese": "取得コイン数",
+     "english": "Coins found"
+    },
+    {
+     "offset": 4964,
+     "japanese": "個",
+     "english": " "
+    },
+    {
+     "offset": 5430,
+     "japanese": "資産",
+     "english": "Funds"
+    },
+    {
+     "offset": 6385,
+     "japanese": "回",
+     "english": "x"
+    },
+    {
+     "offset": 6845,
+     "japanese": "移動距離",
+     "english": "Distance"
+    },
+    {
+     "offset": 8245,
+     "japanese": "緊急回避",
+     "english": "Quick dodge"
+    },
+    {
+     "offset": 10115,
+     "japanese": "スタミナ消費量",
+     "english": "Stamina used"
+    },
+    {
+     "offset": 11069,
+     "japanese": "HP消費量",
+     "english": "HP used"
+    },
+    {
+     "offset": 12004,
+     "japanese": "[i02]閉じる",
+     "english": "[i02]Close"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/Intermission/IM_detail_news.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "70d9ca86cd862edc41a42874f65f1bbb64548bf912c89dc12c73af69d1f7cec3",
+   "changes": [
+    {
+     "offset": 399,
+     "japanese": "タイトルああああああああああああああああああ",
+     "english": "Title"
+    },
+    {
+     "offset": 2998,
+     "japanese": "2017年04月06日　20：50掲載　",
+     "english": "Apr 6, 2017 20:50"
+    },
+    {
+     "offset": 3420,
+     "japanese": "１ ２ ３ ４ ５ ６ ７ ８ ９ １０ １１ １２ １３ １４ １５ １６ １７",
+     "english": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17"
+    },
+    {
+     "offset": 4244,
+     "japanese": "[i5]Twitter投稿　[i7] Fasebook投稿　[i2]閉じる",
+     "english": "[i5]Twitter  [i7] Facebook  [i2] Close"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/store_operation.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "9d368c38399e3742578405cca58241574b72f2d28ce42ad02af1ef2a32c46bb3",
+   "changes": [
+    {
+     "offset": 261,
+     "japanese": "操作説明",
+     "english": "Controls"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/store_select_num.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "50023373beb77cfdf8e19ee309e976da09d47aef7ce2e9bb2396ac9cefe36a2f",
+   "changes": [
+    {
+     "offset": 1516,
+     "japanese": "購入数を入力してください",
+     "english": "Enter the quantity to buy."
+    },
+    {
+     "offset": 4903,
+     "japanese": "合　計",
+     "english": "Total"
+    },
+    {
+     "offset": 5851,
+     "japanese": "[i5] 数量変更　[i1] 決定　[i2] キャンセル",
+     "english": "[i5] Quantity  [i1] OK  [i2] Cancel"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/treasure_change/TC_dialog_2.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "757055485e475d5d92e4865e9d39306b4ffe62399e8c0268cdfb0e89ec63458d",
+   "changes": [
+    {
+     "offset": 668,
+     "japanese": "現時点で、交換できるアイテムはありません",
+     "english": "No items are available to trade right now."
+    }
+   ]
+  },
+  {
+   "path": "common/hud/menu/mission/menu_mission_detail.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "7bcd0a0f64148f633a7000886bedd9b989296cc519876f400ffe835f72646b0b",
+   "changes": [
+    {
+     "offset": 2065,
+     "japanese": "最大全角二十文字ああああああああああああ",
+     "english": "Text"
+    },
+    {
+     "offset": 2507,
+     "japanese": "Stage 10前半",
+     "english": "Stage 10 P1"
+    },
+    {
+     "offset": 2903,
+     "japanese": "受注場所最大全角十一字",
+     "english": "Location"
+    },
+    {
+     "offset": 3320,
+     "japanese": "ミッション説明ミッション説明ミッション説明ミッション説明ミッション説明ミッション説明ミッション説明ミッション説明ミッション説明ミッション説明ミッション説明ミッション説明ミッション説明ミッション説明ミッション説明ミッション説明ミッション説明ミッション説明ミッション説明ミッション説明ミッション説明ミッション説明ミッション説明ミッション説明",
+     "english": "Description"
+    },
+    {
+     "offset": 4209,
+     "japanese": "進捗状況四十八文字進捗状況四十八文字進捗状況四十八文字進捗状況四十八文字進捗状況四十八文字進捗状進捗状況四十八文字進捗状況四十八文字進捗状況四十八文字進捗状況四十八文字進捗状況四十八文字進捗状進捗状況四十八文字進捗状況四十八文字進捗状況四十八文字進捗状況四十八文字進捗状況四十八文字進捗状進捗状況四十八文字進捗状況四十八文字進捗状況四十八文字進捗状況四十八文字進捗状況四十八文字進捗状",
+     "english": "Progress"
+    },
+    {
+     "offset": 6262,
+     "japanese": "[i2] 戻る",
+     "english": "[i2] Back"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/menu/character/menu_character.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "b4548b2d0eb08aec65a9d9b6c8a18abde4d6df181c4a64dd9c812dc2b91d67d0",
+   "changes": [
+    {
+     "offset": 3240,
+     "japanese": " キャラクター操作",
+     "english": " Character controls"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/store_dialog.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "0ba2e2e2efe3cd9914dd366a9c5e563adf26cfbedb05aed880a9ad8f2e3bcada",
+   "changes": [
+    {
+     "offset": 1485,
+     "japanese": "はい",
+     "english": "Yes"
+    },
+    {
+     "offset": 1945,
+     "japanese": "いいえ",
+     "english": "No"
+    },
+    {
+     "offset": 2403,
+     "japanese": "＜カラアゲ大臣ぶどうシャーベット味＞を＜○○＞  購入します。      よろしいでしょうか。",
+     "english": "Buy Chicken Minister (Grape Sherbet) x 00? Are you sure?"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/Intermission/IM_dialog_title.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "cb3c676b3ad131864f7f603f9bc199678e3287d7d08aef2b68d465864646e0bc",
+   "changes": [
+    {
+     "offset": 2130,
+     "japanese": "タイトル画面に戻りますか？",
+     "english": "Return to the title screen?"
+    },
+    {
+     "offset": 2617,
+     "japanese": "はい",
+     "english": "Yes"
+    },
+    {
+     "offset": 3070,
+     "japanese": "いいえ",
+     "english": "No"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/Intermission/IM_save_dialog.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "2433633683d5b0ce53f1eb522ee1af3048bc3c978cd2d9a4a31ab9d7634fab3f",
+   "changes": [
+    {
+     "offset": 2130,
+     "japanese": "セーブしない場合は、ここまでの進行状況の情報が 失われますが本当によろしいですか？",
+     "english": "If you do not save, your progress will be lost. Continue?"
+    },
+    {
+     "offset": 2699,
+     "japanese": "はい",
+     "english": "Yes"
+    },
+    {
+     "offset": 3152,
+     "japanese": "いいえ",
+     "english": "No"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/controller_operation.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "8ae4298d3a0c4606909ca05a6020147c47e359df019fec389e3d40f1d5dfc2b0",
+   "changes": [
+    {
+     "offset": 853,
+     "japanese": "[i16] 閉じる",
+     "english": "[i16] Close"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/menu/option/menu_option_brightness.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "a36e84fcd1f4969c1993b3ca3a31658fd72266333563e76ec5650753259878ee",
+   "changes": [
+    {
+     "offset": 2527,
+     "japanese": "それぞれ文字で示された状態になるよう調整してください",
+     "english": "Adjust the brightness as described for each image."
+    },
+    {
+     "offset": 3059,
+     "japanese": "明るさ",
+     "english": "Bright"
+    },
+    {
+     "offset": 3516,
+     "japanese": "100％",
+     "english": "100%"
+    },
+    {
+     "offset": 4674,
+     "japanese": "[i14] を左に 倒すと暗く　右に倒すと明るくなります",
+     "english": "[i14] Left: darker  Right: brighter"
+    },
+    {
+     "offset": 5202,
+     "japanese": " [i1] 決定　[i2] キャンセル",
+     "english": " [i1] OK  [i2] Cancel"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/intermission_op_top.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "55ffbee7fde27a3f6d093cf16bc2dcefbe3ef44f503ca3c5c5cc59c0afe5ae0f",
+   "changes": [
+    {
+     "offset": 1061,
+     "japanese": "カーソル移動",
+     "english": "Move cursor"
+    },
+    {
+     "offset": 1530,
+     "japanese": "スクロール",
+     "english": "Scroll"
+    },
+    {
+     "offset": 2001,
+     "japanese": "詳細表示",
+     "english": "Details"
+    },
+    {
+     "offset": 2468,
+     "japanese": "次のステージへ",
+     "english": "Next stage"
+    },
+    {
+     "offset": 3280,
+     "japanese": "[s45][i5][/s] or [s45][i14][/s]カーソル移動　[s45][i15][/s]スクロール　[s45][i1][/s]詳細表示　[s45][i2][/s]次のステージへ",
+     "english": "[s45][i5][/s] or [s45][i14][/s]Move  [s45][i15][/s]Scroll  [s45][i1][/s]Details  [s45][i2][/s]Next stage"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/intermission_news_detail.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "19c77f6170cc79f7617c87e01943f19607baf3e0dba716f6df539fa20a3a99fd",
+   "changes": [
+    {
+     "offset": 1304,
+     "japanese": "あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ",
+     "english": "Text"
+    },
+    {
+     "offset": 2139,
+     "japanese": "記事タイトルあああああああああああ",
+     "english": "Article title"
+    },
+    {
+     "offset": 2570,
+     "japanese": "２０１５年１２月２５日(金) ２０：２０掲載",
+     "english": "Dec 25, 2015 20:20"
+    },
+    {
+     "offset": 3013,
+     "japanese": "ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ",
+     "english": "Text"
+    },
+    {
+     "offset": 4164,
+     "japanese": "ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ",
+     "english": "Text"
+    },
+    {
+     "offset": 6747,
+     "japanese": "[s39][i2][/s] 閉じる　[s39][i6][/s] Twitter投稿　[s39][i8][/s] Facebook投稿",
+     "english": "[s39][i2][/s] Close  [s39][i6][/s] Twitter  [s39][i8][/s] Facebook"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/intermission_ad_detail.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "efdf890c8a23da3f0dac9fe54f27094fbe1495cdba8c1e9e99209d154d889673",
+   "changes": [
+    {
+     "offset": 943,
+     "japanese": "記事タイトルあああああああああああ",
+     "english": "Article title"
+    },
+    {
+     "offset": 1377,
+     "japanese": "２８日午後八時頃、東京都新宿区の交差点に突如謎の光の巨人がああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああウうううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううう",
+     "english": "Article text"
+    },
+    {
+     "offset": 3960,
+     "japanese": "[s39][i2][/s] 閉じる　[s39][i6][/s] Twitter投稿　[s39][i8][/s] Facebook投稿",
+     "english": "[s39][i2][/s] Close  [s39][i6][/s] Twitter  [s39][i8][/s] Facebook"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/intermission_movie_detail.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "7734a97737814def5964af379725a88896b8db433c4cba7958c50c6bf439fc16",
+   "changes": [
+    {
+     "offset": 2902,
+     "japanese": "[s39][i2][/s] 閉じる　 [s39][i1][/s] 最初から再生",
+     "english": "[s39][i2][/s] Close  [s39][i1][/s] Restart"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/store_warning.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "6af3c7360e320891df69146e2ac4449c3293a81a6f60d655fc91d597ee003e59",
+   "changes": [
+    {
+     "offset": 601,
+     "japanese": "所持金が不足しています",
+     "english": "Not enough money."
+    }
+   ]
+  },
+  {
+   "path": "common/hud/menu/mail/mail_plate_reply_message.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "03e77e1dfa977009f0c1b481bbcf07a69f2acc224a80e3165e2d828a20b971f3",
+   "changes": [
+    {
+     "offset": 888,
+     "japanese": "メールを返信しました。",
+     "english": "Reply sent."
+    }
+   ]
+  },
+  {
+   "path": "common/hud/menu/character/menu_character_hpst.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "9622eccccbf450351d47f19e998890732c31789c4af4c47e00d288f3c87f19e5",
+   "changes": [
+    {
+     "offset": 7901,
+     "japanese": "紫色の怪光レベル",
+     "english": "Purple Light Level"
+    },
+    {
+     "offset": 8839,
+     "japanese": "コスプレレベル",
+     "english": "Cosplay Level"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/Intermission/IM_main.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "677abe40297c21b6656fb7e8d31e06b4121903b05a5a8065f9ff276218bd5784",
+   "changes": [
+    {
+     "offset": 4822,
+     "japanese": "タイトル一ああああああああああ                 あ",
+     "english": "Title"
+    },
+    {
+     "offset": 5344,
+     "japanese": "04月06日　20：20配信",
+     "english": "Apr 6 20:20"
+    },
+    {
+     "offset": 6120,
+     "japanese": "記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容内",
+     "english": "Article text"
+    },
+    {
+     "offset": 6946,
+     "japanese": "[続きを読む]",
+     "english": "[Read more]"
+    },
+    {
+     "offset": 7402,
+     "japanese": "タイトルああああああ                 あ",
+     "english": "Title"
+    },
+    {
+     "offset": 7909,
+     "japanese": "04月06日　20：20配信",
+     "english": "Apr 6 20:20"
+    },
+    {
+     "offset": 8685,
+     "japanese": "記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容",
+     "english": "Article text"
+    },
+    {
+     "offset": 9208,
+     "japanese": "[続きを読む]",
+     "english": "[Read more]"
+    },
+    {
+     "offset": 9664,
+     "japanese": "タイトルあああああ                                                                                                                                                                                                                                                                                                                                          あ                             あ                               あ                                  あ                                                                                                      あ                                                                                         あ                                                          あ",
+     "english": "Title"
+    },
+    {
+     "offset": 10842,
+     "japanese": "04月06日　20：20配信",
+     "english": "Apr 6 20:20"
+    },
+    {
+     "offset": 12333,
+     "japanese": "[続きを読む]",
+     "english": "[Read more]"
+    },
+    {
+     "offset": 12789,
+     "japanese": "タイトルあああああ                                                                                                                                                                                                                                                                                                                                          あ                             あ                               あ                                  あ                                                                                                      あ                                                                                         あ                                                          あ",
+     "english": "Title"
+    },
+    {
+     "offset": 13967,
+     "japanese": "04月06日　20：20配信",
+     "english": "Apr 6 20:20"
+    },
+    {
+     "offset": 15458,
+     "japanese": "[続きを読む]",
+     "english": "[Read more]"
+    },
+    {
+     "offset": 15914,
+     "japanese": "タイトルあああああ                                                                                                                                                                                                                                                                                                                                          あ                             あ                               あ                                  あ                                                                                                      あ                                                                                         あ                                                          あ",
+     "english": "Title"
+    },
+    {
+     "offset": 17092,
+     "japanese": "04月06日　20：20配信",
+     "english": "Apr 6 20:20"
+    },
+    {
+     "offset": 18583,
+     "japanese": "[続きを読む]",
+     "english": "[Read more]"
+    },
+    {
+     "offset": 19037,
+     "japanese": "【動画】突然現れた巨大怪獣衝撃の瞬間",
+     "english": "[Video] The Moment a Giant Monster Appeared"
+    },
+    {
+     "offset": 20307,
+     "japanese": "タイトルあああああああああああ              あ",
+     "english": "Title"
+    },
+    {
+     "offset": 20826,
+     "japanese": "04月06日　20：20配信",
+     "english": "Apr 6 20:20"
+    },
+    {
+     "offset": 21602,
+     "japanese": "記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容",
+     "english": "Article text"
+    },
+    {
+     "offset": 22113,
+     "japanese": "[続きを読む]",
+     "english": "[Read more]"
+    },
+    {
+     "offset": 22569,
+     "japanese": "タイトルあああああああああああ",
+     "english": "Title"
+    },
+    {
+     "offset": 23071,
+     "japanese": "04月06日　20：20配信",
+     "english": "Apr 6 20:20"
+    },
+    {
+     "offset": 24562,
+     "japanese": "[続きを読む]",
+     "english": "[Read more]"
+    },
+    {
+     "offset": 25018,
+     "japanese": "タイトルあああああああああああ            あ",
+     "english": "Title"
+    },
+    {
+     "offset": 25535,
+     "japanese": "04月06日　20：20配信",
+     "english": "Apr 6 20:20"
+    },
+    {
+     "offset": 27026,
+     "japanese": "[続きを読む]",
+     "english": "[Read more]"
+    },
+    {
+     "offset": 27482,
+     "japanese": "タイトルあああああああああああ            あ",
+     "english": "Title"
+    },
+    {
+     "offset": 27999,
+     "japanese": "04月06日　20：20配信",
+     "english": "Apr 6 20:20"
+    },
+    {
+     "offset": 29490,
+     "japanese": "[続きを読む]",
+     "english": "[Read more]"
+    },
+    {
+     "offset": 32584,
+     "japanese": "取得コイン数",
+     "english": "Coins found"
+    },
+    {
+     "offset": 33392,
+     "japanese": "個",
+     "english": " "
+    },
+    {
+     "offset": 33787,
+     "japanese": "資産",
+     "english": "Funds"
+    },
+    {
+     "offset": 34589,
+     "japanese": "回",
+     "english": "x"
+    },
+    {
+     "offset": 34984,
+     "japanese": "移動距離",
+     "english": "Distance"
+    },
+    {
+     "offset": 36641,
+     "japanese": "編集部のおすすめ記事",
+     "english": "Editor's Picks"
+    },
+    {
+     "offset": 37635,
+     "japanese": "04月06日　20：20配信",
+     "english": "Apr 6 20:20"
+    },
+    {
+     "offset": 38411,
+     "japanese": "記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容",
+     "english": "Article text"
+    },
+    {
+     "offset": 39186,
+     "japanese": "[続きを読む]",
+     "english": "[Read more]"
+    },
+    {
+     "offset": 40296,
+     "japanese": "[バックナンバーはこちら]",
+     "english": "[News Archive]"
+    },
+    {
+     "offset": 41944,
+     "japanese": "ああああああああああああああああああ",
+     "english": "Text"
+    },
+    {
+     "offset": 44921,
+     "japanese": "ああああああああああああああああ",
+     "english": "Text"
+    },
+    {
+     "offset": 47892,
+     "japanese": "ああああああああああああああああ",
+     "english": "Text"
+    },
+    {
+     "offset": 50863,
+     "japanese": "ああああああああああああああああ",
+     "english": "Text"
+    },
+    {
+     "offset": 56104,
+     "japanese": "タイトルああああああああ                 あ                                                                                                                                                                                                                                                            あ                      あ                   あ                                あ                           あ                           あ                                  あ                                         あ                                    あ                             あ                                              あ                                                あ                                                 あ                                あ                                      あ                             あ",
+     "english": "Title"
+    },
+    {
+     "offset": 57430,
+     "japanese": "04月06日　20：20配信",
+     "english": "Apr 6 20:20"
+    },
+    {
+     "offset": 58214,
+     "japanese": "記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容",
+     "english": "Article text"
+    },
+    {
+     "offset": 63039,
+     "japanese": "緊急回避",
+     "english": "Quick dodge"
+    },
+    {
+     "offset": 64621,
+     "japanese": "ST消費量",
+     "english": "ST used"
+    },
+    {
+     "offset": 65414,
+     "japanese": "HP消費量",
+     "english": "HP used"
+    },
+    {
+     "offset": 69594,
+     "japanese": "旺盛な食欲をもって飛来する影",
+     "english": "A Shadow That Flies In, Ravenous"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/menu/option/menu_option.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "5c41b79c02e55446addf0d10b6031f7f9938008c2391f4f29c3ac8dbf2028ce3",
+   "changes": [
+    {
+     "offset": 25618,
+     "japanese": "項目説明領域項目説明領域項目説明領域項目説明領域項目説明領域項     目      説明領域                       項目説明領域項目説明領域項目説明領域項目説明領域 項   目 説   明   領   域   項   目   説   明  領   域   項目説明領域項目説明領域項目説明領 域",
+     "english": "Description"
+    },
+    {
+     "offset": 51005,
+     "japanese": " 設定の変更",
+     "english": " Change setting"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/intermission_item_detail.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "3811d9fe2e1d5f05ed53d8f1c469284f48a8aacffc9988ff9e7591518a9e14cb",
+   "changes": [
+    {
+     "offset": 952,
+     "japanese": "記事タイトルあああああああああああ",
+     "english": "Article title"
+    },
+    {
+     "offset": 1840,
+     "japanese": "（自己評価★３）（評価数１２０）",
+     "english": "(Self-rated ★3) (120 ratings)"
+    },
+    {
+     "offset": 2608,
+     "japanese": "２８日午後八時頃、東京都新宿区の交差点に突如謎の光の巨人が出現し街を襲あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ",
+     "english": "Article text"
+    },
+    {
+     "offset": 6926,
+     "japanese": "[s39][i2][/s] 閉じる　[s39][i10][/s]アイテム評価　[s39][i6][/s] Twitter投稿　[s39][i8][/s] Facebook投稿",
+     "english": "[s39][i2][/s] Close  [s39][i10][/s]Rate item  [s39][i6][/s] Twitter  [s39][i8][/s] Facebook"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/Intermission/IM_dialog.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "a0807d047dc7b0c413abe59550309a3c85c5799fa6285fe315751d55cbca61d1",
+   "changes": [
+    {
+     "offset": 1961,
+     "japanese": "次のステージに進む",
+     "english": "Next stage"
+    },
+    {
+     "offset": 2452,
+     "japanese": "セーブする",
+     "english": "Save game"
+    },
+    {
+     "offset": 2931,
+     "japanese": "タイトル画面に戻る",
+     "english": "Title screen"
+    },
+    {
+     "offset": 3766,
+     "japanese": "戻る",
+     "english": "Back"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/menu/mail/menu_mail.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "64c21177d061f01377bc2b85a3b72529c8693439b28a616358d0318f346d5220",
+   "changes": [
+    {
+     "offset": 2817,
+     "japanese": "最大全角二十文字ああああああああああ                     ああ",
+     "english": "Text"
+    },
+    {
+     "offset": 3347,
+     "japanese": "送主最大全角八 字",
+     "english": "Sender"
+    },
+    {
+     "offset": 3825,
+     "japanese": "進捗状況四十八文字進捗状況四十 八・・   ・",
+     "english": "Progress"
+    },
+    {
+     "offset": 6731,
+     "japanese": "現在受信しているメールはありません。",
+     "english": "You have no mail."
+    },
+    {
+     "offset": 7242,
+     "japanese": "[i2] 戻る",
+     "english": "[i2] Back"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/Intermission/IM_next_page.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "21f8e6007597263fefebb7eaecc14b1e1af5a79369880de052aafb68b42a3d74",
+   "changes": [
+    {
+     "offset": 2130,
+     "japanese": "次のステージへ進みますか？",
+     "english": "Proceed to the next stage?"
+    },
+    {
+     "offset": 2617,
+     "japanese": "はい",
+     "english": "Yes"
+    },
+    {
+     "offset": 3070,
+     "japanese": "いいえ",
+     "english": "No"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/menu/item/menu_item_equip.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "64cfd1996c1468b61c3fe42e1a741f73f8bb86ff77032e7904cfabb45523de74",
+   "changes": [
+    {
+     "offset": 10156,
+     "japanese": "装備",
+     "english": "Gear"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/menu/hair/menu_hair.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "b327ff04aec518c35da7bd135d19fff92f4892e47f47227c0e90d993a1241408",
+   "changes": [
+    {
+     "offset": 1443,
+     "japanese": "[i5] 選択　　[i15] キャラ回転　　[i1] 決定　　[i2] 終了",
+     "english": "[i5] Select  [i15] Rotate  [i1] OK  [i2] Exit"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/menu/mail/menu_mail_detail_reply.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "eb911f363aaabbc203c92d4e0cb25f5fbca15d1ea48cd446e8bccf837b818444",
+   "changes": [
+    {
+     "offset": 2135,
+     "japanese": "差出人：",
+     "english": "From:"
+    },
+    {
+     "offset": 2596,
+     "japanese": "名前最大八文字あ",
+     "english": "Name"
+    },
+    {
+     "offset": 3988,
+     "japanese": "メールタイトル全角二十文字あああああああ",
+     "english": "Title"
+    },
+    {
+     "offset": 4502,
+     "japanese": "最大百文字最大百文字最大百文字最大百文字最大百文字最大百文字                             最大百文字最大百文字最大百文字最大百文字  最   大  百  文   字   最   大  百   文   字   最大百文字最大百文字  最大   百文  字最  大百   文字   最大   百文  字最   大百   文字     最大百   文字最  大百文  字",
+     "english": "Text"
+    },
+    {
+     "offset": 5402,
+     "japanese": "最大三十字最大三十字最大三十字最大三十字最大三十字最大三十字",
+     "english": "Text"
+    },
+    {
+     "offset": 5948,
+     "japanese": "返信",
+     "english": "Reply"
+    },
+    {
+     "offset": 7494,
+     "japanese": "閉じる",
+     "english": "Close"
+    },
+    {
+     "offset": 8368,
+     "japanese": "最大三十字最大三十字最大三十字最大三十字最大三十字最大三十字",
+     "english": "Text"
+    },
+    {
+     "offset": 8918,
+     "japanese": "返々信",
+     "english": "Reply"
+    },
+    {
+     "offset": 9391,
+     "japanese": "名前",
+     "english": "Name"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/intermission_result_detail.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "d64f91036685b9adf040e764b0903809a6f5bb539f7514bc11f750551eba4d4a",
+   "changes": [
+    {
+     "offset": 784,
+     "japanese": "クリアタイム",
+     "english": "Clear time"
+    },
+    {
+     "offset": 1302,
+     "japanese": "００：００：００",
+     "english": "00:00:00"
+    },
+    {
+     "offset": 1825,
+     "japanese": "死亡回数",
+     "english": "Deaths"
+    },
+    {
+     "offset": 2338,
+     "japanese": "００",
+     "english": "00"
+    },
+    {
+     "offset": 2843,
+     "japanese": "シェア回数",
+     "english": "Shares"
+    },
+    {
+     "offset": 3359,
+     "japanese": "００００",
+     "english": "0000"
+    },
+    {
+     "offset": 3870,
+     "japanese": "ステージ得点",
+     "english": "Stage score"
+    },
+    {
+     "offset": 4389,
+     "japanese": "００００００００",
+     "english": "00000000"
+    },
+    {
+     "offset": 4912,
+     "japanese": "獲得金額",
+     "english": "Money earned"
+    },
+    {
+     "offset": 5425,
+     "japanese": "００００００００",
+     "english": "00000000"
+    },
+    {
+     "offset": 7761,
+     "japanese": "2015年 12月 31日 20：00",
+     "english": "Dec 31, 2015 20:00"
+    },
+    {
+     "offset": 8305,
+     "japanese": "００：００：００",
+     "english": "00:00:00"
+    },
+    {
+     "offset": 8846,
+     "japanese": "2015年 12月 31日 20：00",
+     "english": "Dec 31, 2015 20:00"
+    },
+    {
+     "offset": 9390,
+     "japanese": "００：００：００",
+     "english": "00:00:00"
+    },
+    {
+     "offset": 9931,
+     "japanese": "2015年 12月 31日 20：00",
+     "english": "Dec 31, 2015 20:00"
+    },
+    {
+     "offset": 10475,
+     "japanese": "００：００：００",
+     "english": "00:00:00"
+    },
+    {
+     "offset": 11016,
+     "japanese": "2015年 12月 31日 20：00",
+     "english": "Dec 31, 2015 20:00"
+    },
+    {
+     "offset": 11560,
+     "japanese": "００：００：００",
+     "english": "00:00:00"
+    },
+    {
+     "offset": 12101,
+     "japanese": "2015年 12月 31日 20：00",
+     "english": "Dec 31, 2015 20:00"
+    },
+    {
+     "offset": 12645,
+     "japanese": "００：００：００",
+     "english": "00:00:00"
+    },
+    {
+     "offset": 13187,
+     "japanese": "2015年 12月 31日 20：00",
+     "english": "Dec 31, 2015 20:00"
+    },
+    {
+     "offset": 13732,
+     "japanese": "００：００：００",
+     "english": "00:00:00"
+    },
+    {
+     "offset": 14274,
+     "japanese": "2015年 12月 31日 20：00",
+     "english": "Dec 31, 2015 20:00"
+    },
+    {
+     "offset": 14819,
+     "japanese": "００：００：００",
+     "english": "00:00:00"
+    },
+    {
+     "offset": 15361,
+     "japanese": "2015年 12月 31日 20：00",
+     "english": "Dec 31, 2015 20:00"
+    },
+    {
+     "offset": 15906,
+     "japanese": "００：００：００",
+     "english": "00:00:00"
+    },
+    {
+     "offset": 16448,
+     "japanese": "2015年 12月 31日 20：00",
+     "english": "Dec 31, 2015 20:00"
+    },
+    {
+     "offset": 16993,
+     "japanese": "００：００：００",
+     "english": "00:00:00"
+    },
+    {
+     "offset": 17536,
+     "japanese": "2015年 12月 31日 20：00",
+     "english": "Dec 31, 2015 20:00"
+    },
+    {
+     "offset": 18082,
+     "japanese": "００：００：００",
+     "english": "00:00:00"
+    },
+    {
+     "offset": 20845,
+     "japanese": "[s39][i2][/s]閉じる　[s39][i1][/s]歴代クリアタイム",
+     "english": "[s39][i2][/s]Close  [s39][i1][/s]Past clear times"
+    },
+    {
+     "offset": 21338,
+     "japanese": "Stage１：夜の街（まち）に現れた巨大な影 ",
+     "english": "Stage 1: Giant Shadow in the Night City"
+    },
+    {
+     "offset": 21894,
+     "japanese": "Stage１：夜の街（まち）に現れた巨大な影 ",
+     "english": "Stage 1: Giant Shadow in the Night City"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/store.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "a7e486aeeb0e0422243af2a3b7249e39dcb794691e3a466f02efef40e617fe02",
+   "changes": [
+    {
+     "offset": 749,
+     "japanese": "所持金　￥",
+     "english": "Money: Y"
+    },
+    {
+     "offset": 5628,
+     "japanese": "購入数",
+     "english": "Quantity"
+    },
+    {
+     "offset": 6437,
+     "japanese": "購入確認",
+     "english": "Confirm buy"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/intermission_exit_dialog.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "709feac125c500ebf38aba358abbe640d2b41c1b60c3dadc6ac9cb68acc14143",
+   "changes": [
+    {
+     "offset": 1309,
+     "japanese": "次のステージへ進みますか？",
+     "english": "Proceed to the next stage?"
+    },
+    {
+     "offset": 1728,
+     "japanese": "はい",
+     "english": "Yes"
+    },
+    {
+     "offset": 2113,
+     "japanese": "いいえ",
+     "english": "No"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/menu/hair/menu_hair_info.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "8778ec8726eac0443894d8389f356c3dd1e6edf45611d38ba2c4b580badecf5f",
+   "changes": [
+    {
+     "offset": 1312,
+     "japanese": "あああああああああああああ             ああ  ああ あああ",
+     "english": "Text"
+    },
+    {
+     "offset": 3233,
+     "japanese": "[i1] 装備",
+     "english": "[i1] Equip"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/treasure_change/TC_dialog.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "446704dd7196e081a32fa6244c4ab150790621aef56b42bef2df6df73dfd8dce",
+   "changes": [
+    {
+     "offset": 1790,
+     "japanese": "交換",
+     "english": "Trade"
+    },
+    {
+     "offset": 2247,
+     "japanese": "戻る",
+     "english": "Back"
+    },
+    {
+     "offset": 2702,
+     "japanese": "アイテムを交換しますか？",
+     "english": "Trade for this item?"
+    },
+    {
+     "offset": 3192,
+     "japanese": "アイテム名アイテム名アイテム名アイテム名",
+     "english": "Item name"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/store_select_num_cstm.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "04e204a9b976e98d3129729e6889df88c0a4da31e24606357cbcd10e6bde2ce5",
+   "changes": [
+    {
+     "offset": 686,
+     "japanese": "ヒロインの服アイテム名アイテム名",
+     "english": "Item name"
+    },
+    {
+     "offset": 1185,
+     "japanese": "合　計",
+     "english": "Total"
+    },
+    {
+     "offset": 2519,
+     "japanese": "修理する",
+     "english": "Repair"
+    },
+    {
+     "offset": 2995,
+     "japanese": "やめておく",
+     "english": "Cancel"
+    },
+    {
+     "offset": 5062,
+     "japanese": "所持金　￥",
+     "english": "Money: Y"
+    },
+    {
+     "offset": 5537,
+     "japanese": "今身に着けているコスチュームを修理しますか？",
+     "english": "Repair the outfit you are wearing?"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/treasure_change/TC_item_detail.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "075ef36201328298b7da2abfc52dbfed92ac8fa990faba258df8400876297df7",
+   "changes": [
+    {
+     "offset": 2412,
+     "japanese": "アイテムタイプ",
+     "english": "Item type"
+    },
+    {
+     "offset": 2887,
+     "japanese": "アイテムアイテムアイテムアイテ    ムアイテム",
+     "english": "Item"
+    },
+    {
+     "offset": 3409,
+     "japanese": "必要コイン数",
+     "english": "Coins needed"
+    },
+    {
+     "offset": 4349,
+     "japanese": "説明文ああ説明文ああ説明文ああ説明 文ああ説    明文ああ説明文ああ説明文あ あ説明文ああ説   明 文ああ説明文ああ説明文あ あ説明文ああ説   明 文ああ説明文ああ",
+     "english": "Description"
+    },
+    {
+     "offset": 5026,
+     "japanese": "ＨＰ+000000",
+     "english": "HP+000000"
+    },
+    {
+     "offset": 5491,
+     "japanese": "ＳＴ+000000",
+     "english": "ST+000000"
+    },
+    {
+     "offset": 5958,
+     "japanese": "主人公性別",
+     "english": "Gender"
+    },
+    {
+     "offset": 6431,
+     "japanese": "男",
+     "english": "M"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/Intermission/IM_header.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "0e15905b5f8ce2a7c11e80864a2ab6b4120496f2e39793f1d4a1d9e9c0e1b515",
+   "changes": [
+    {
+     "offset": 2723,
+     "japanese": "2017年　4月7日（金）",
+     "english": "Apr 7, 2017"
+    },
+    {
+     "offset": 3664,
+     "japanese": "こんにちは。",
+     "english": "Hello."
+    },
+    {
+     "offset": 4133,
+     "japanese": "ｗｗｗｗｗｗｗｗｗさん",
+     "english": "WWWWWWWWW"
+    },
+    {
+     "offset": 4626,
+     "japanese": "今日の天気",
+     "english": "Today"
+    },
+    {
+     "offset": 5033,
+     "japanese": "明日の天気",
+     "english": "Tomorrow"
+    },
+    {
+     "offset": 5434,
+     "japanese": "１００％",
+     "english": "100%"
+    },
+    {
+     "offset": 5832,
+     "japanese": "１００％",
+     "english": "100%"
+    },
+    {
+     "offset": 6239,
+     "japanese": "２１℃",
+     "english": "21C"
+    },
+    {
+     "offset": 6643,
+     "japanese": "２１℃",
+     "english": "21C"
+    },
+    {
+     "offset": 7817,
+     "japanese": "１０℃",
+     "english": "10C"
+    },
+    {
+     "offset": 8221,
+     "japanese": "１０℃",
+     "english": "10C"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/menu/mission/menu_mission.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "cae64e109cdbc7f0cd843874b6ec24ec669231586210ee18b0114476189a1cad",
+   "changes": [
+    {
+     "offset": 3172,
+     "japanese": "最大全角十六文字ああああああああ",
+     "english": "Text"
+    },
+    {
+     "offset": 3670,
+     "japanese": "St10後編b",
+     "english": "St10 Pt2b"
+    },
+    {
+     "offset": 4131,
+     "japanese": "受注場所最大全角十一字",
+     "english": "Location"
+    },
+    {
+     "offset": 4617,
+     "japanese": "進捗状況四十八文字進捗状況十八・・・",
+     "english": "Progress"
+    },
+    {
+     "offset": 5473,
+     "japanese": "決定",
+     "english": "OK"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/cockpit/timedate/cockpit_timedate.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "a8c268a3cb46aa6289331a37beda5df2a99300535cfc7e34c222d7461f54764d",
+   "changes": [
+    {
+     "offset": 2645,
+     "japanese": "１日目",
+     "english": "Day 1"
+    },
+    {
+     "offset": 3696,
+     "japanese": "場所場所場所場所場所場所           場所 場所場所場所  場   所   場   所 場所場所",
+     "english": "Location"
+    },
+    {
+     "offset": 4796,
+     "japanese": "午後",
+     "english": "PM"
+    },
+    {
+     "offset": 5265,
+     "japanese": "天気",
+     "english": "Sky"
+    },
+    {
+     "offset": 5737,
+     "japanese": "現在地",
+     "english": "Location"
+    },
+    {
+     "offset": 6212,
+     "japanese": "所持金:",
+     "english": "Money:"
+    },
+    {
+     "offset": 6694,
+     "japanese": "所持巨影コイン：",
+     "english": "Giant Shadow Coins:"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/menu/mail/menu_mail_detail.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "edec326e5408f14472685f0ab18c89fc842bab70332318dfd633b57627d086e8",
+   "changes": [
+    {
+     "offset": 1300,
+     "japanese": "差出人：",
+     "english": "From:"
+    },
+    {
+     "offset": 1764,
+     "japanese": "名前最大八文字あ",
+     "english": "Name"
+    },
+    {
+     "offset": 3156,
+     "japanese": "メールタイトル全角二十文字あああああああ",
+     "english": "Title"
+    },
+    {
+     "offset": 3673,
+     "japanese": "最大百文字最大百文字最大百文字最大百文字最大百文字最大百文字                    最大百文字最大百文字最大百文字最大百文字最大百  文   字   最   大  百   文   字 最大百文字最大百文字最大百文字最  大百   文字   最大   百文  字最   大百   文字 最大百文字最大百文  字",
+     "english": "Text"
+    },
+    {
+     "offset": 4962,
+     "japanese": "返信は…",
+     "english": "Reply..."
+    },
+    {
+     "offset": 5901,
+     "japanese": "閉じる",
+     "english": "Close"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/menu/mail/menu_mail_detail_select.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "901a09ee3c55d6f483fc9ec132e7dc341fc6f389e90f40decf58a779105717a0",
+   "changes": [
+    {
+     "offset": 1327,
+     "japanese": "返信は…",
+     "english": "Reply..."
+    },
+    {
+     "offset": 1857,
+     "japanese": "最大三十字最大三十字最大三十字最大三十字最大三十字最大三十字",
+     "english": "Text"
+    },
+    {
+     "offset": 2992,
+     "japanese": "決定",
+     "english": "OK"
+    },
+    {
+     "offset": 4043,
+     "japanese": "閉じる",
+     "english": "Close"
+    },
+    {
+     "offset": 5097,
+     "japanese": "選択",
+     "english": "Select"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/intermission.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "c1dbe0516172585a8efd43de87a9b21b5cec5773023330bd3b0de7b80ce880c0",
+   "changes": [
+    {
+     "offset": 1291,
+     "japanese": "04月06日 20：50 配信",
+     "english": "Apr 6 20:50"
+    },
+    {
+     "offset": 1705,
+     "japanese": "記事１タイトルあああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ",
+     "english": "Article title"
+    },
+    {
+     "offset": 2309,
+     "japanese": "２８日午後八時頃、東京都新宿区の交差点に突如謎の光の巨人が出現し街を襲った。巨人は同時刻に出現したもう一体の光の巨人と市街地での戦闘を行い、その後謎の巨大怪獣ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ…",
+     "english": "Article text"
+    },
+    {
+     "offset": 3131,
+     "japanese": "[続きを読む]",
+     "english": "[Read more]"
+    },
+    {
+     "offset": 3953,
+     "japanese": "記事２タイトルああ    あああああああああ    あああああああああ    ああああああああ あ   あああああああ ああ   ああああああ あああ   あああああ ああああ   ああああ あああああ",
+     "english": "Article title"
+    },
+    {
+     "offset": 5003,
+     "japanese": "記事２タイトルああ    あああああああああ    あああああああああ    ああああああああ あ   あああああああ ああ   ああああああ あああ   あああああ ああああ   ああああ あああああ",
+     "english": "Article title"
+    },
+    {
+     "offset": 6053,
+     "japanese": "記事２タイトルああ    あああああああああ    あああああああああ    ああああああああ あ   あああああああ ああ   ああああああ あああ   あああああ ああああ   ああああ あああああ",
+     "english": "Article title"
+    },
+    {
+     "offset": 7103,
+     "japanese": "記事２タイトルああ    あああああああああ    あああああああああ    ああああああああ あ   あああああああ ああ   ああああああ あああ   あああああ ああああ   ああああ あああああ",
+     "english": "Article title"
+    },
+    {
+     "offset": 8153,
+     "japanese": "記事６タイトルあああああああああ…",
+     "english": "Article title"
+    },
+    {
+     "offset": 8660,
+     "japanese": "[20：20]",
+     "english": "[20:20]"
+    },
+    {
+     "offset": 9474,
+     "japanese": "記事７タイトルあああああああああ…",
+     "english": "Article title"
+    },
+    {
+     "offset": 9981,
+     "japanese": "[20：20]",
+     "english": "[20:20]"
+    },
+    {
+     "offset": 10795,
+     "japanese": "記事８タイトルあああああああああ…",
+     "english": "Article title"
+    },
+    {
+     "offset": 11302,
+     "japanese": "[20：20]",
+     "english": "[20:20]"
+    },
+    {
+     "offset": 11768,
+     "japanese": "記事７タイトルあああああああああ…",
+     "english": "Article title"
+    },
+    {
+     "offset": 12623,
+     "japanese": "[20：20]",
+     "english": "[20:20]"
+    },
+    {
+     "offset": 13424,
+     "japanese": "[PR]あああああああああああああ…",
+     "english": "[PR] Text"
+    },
+    {
+     "offset": 14262,
+     "japanese": "[PR]あああああああああああああ…",
+     "english": "[PR] Text"
+    },
+    {
+     "offset": 14764,
+     "japanese": "２０１５年 １２月 ２５日 (金)　２０：２１",
+     "english": "Dec 25, 2015 20:21"
+    },
+    {
+     "offset": 15277,
+     "japanese": "今日の天気 (東京)",
+     "english": "Today (Tokyo)"
+    },
+    {
+     "offset": 16112,
+     "japanese": "80％",
+     "english": "80%"
+    },
+    {
+     "offset": 17953,
+     "japanese": "明日の天気 (東京)",
+     "english": "Tomorrow (Tokyo)"
+    },
+    {
+     "offset": 18788,
+     "japanese": "100％",
+     "english": "100%"
+    },
+    {
+     "offset": 20633,
+     "japanese": "記事一覧1内容…",
+     "english": "Article list text..."
+    },
+    {
+     "offset": 21111,
+     "japanese": "04月05日 20：30 配信",
+     "english": "Apr 5 20:30"
+    },
+    {
+     "offset": 21593,
+     "japanese": "記事一覧1内容…",
+     "english": "Article list text..."
+    },
+    {
+     "offset": 22071,
+     "japanese": "04月05日 20：30 配信",
+     "english": "Apr 5 20:30"
+    },
+    {
+     "offset": 22553,
+     "japanese": "記事一覧1内容…",
+     "english": "Article list text..."
+    },
+    {
+     "offset": 23031,
+     "japanese": "04月05日 20：30 配信",
+     "english": "Apr 5 20:30"
+    },
+    {
+     "offset": 23513,
+     "japanese": "記事一覧1内容…",
+     "english": "Article list text..."
+    },
+    {
+     "offset": 23991,
+     "japanese": "04月05日 20：30 配信",
+     "english": "Apr 5 20:30"
+    },
+    {
+     "offset": 25278,
+     "japanese": "アイテム名１あああああ",
+     "english": "Item name"
+    },
+    {
+     "offset": 28306,
+     "japanese": "アイテム名２あああああ",
+     "english": "Item name"
+    },
+    {
+     "offset": 31334,
+     "japanese": "アイテム名３あああああ",
+     "english": "Item name"
+    },
+    {
+     "offset": 34362,
+     "japanese": "アイテム名４あああああ",
+     "english": "Item name"
+    },
+    {
+     "offset": 37044,
+     "japanese": "リザルト",
+     "english": "Results"
+    },
+    {
+     "offset": 37865,
+     "japanese": "クリアタイム",
+     "english": "Clear time"
+    },
+    {
+     "offset": 38808,
+     "japanese": "死亡回数：",
+     "english": "Deaths:"
+    },
+    {
+     "offset": 40887,
+     "japanese": "記事一覧1内容…",
+     "english": "Article list text..."
+    },
+    {
+     "offset": 41365,
+     "japanese": "04月05日 20：30 配信",
+     "english": "Apr 5 20:30"
+    },
+    {
+     "offset": 41847,
+     "japanese": "記事一覧1内容…",
+     "english": "Article list text..."
+    },
+    {
+     "offset": 42325,
+     "japanese": "04月05日 20：30 配信",
+     "english": "Apr 5 20:30"
+    },
+    {
+     "offset": 42807,
+     "japanese": "記事一覧1内容…",
+     "english": "Article list text..."
+    },
+    {
+     "offset": 43285,
+     "japanese": "04月05日 20：30 配信",
+     "english": "Apr 5 20:30"
+    },
+    {
+     "offset": 43765,
+     "japanese": "【動画】突然街に現れた巨大怪獣！衝撃の瞬間",
+     "english": "[Video] Giant Monster Suddenly Appears in Town!"
+    },
+    {
+     "offset": 44287,
+     "japanese": "シェア数",
+     "english": "Shares"
+    },
+    {
+     "offset": 45225,
+     "japanese": "スコア",
+     "english": "Score"
+    },
+    {
+     "offset": 46150,
+     "japanese": "こんにちは　<P_LNAME><P_FNAME> さん　【ログアウト】",
+     "english": "Hello, <P_LNAME><P_FNAME>  [Log out]"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/Intermission/IM_detail_pr_item.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "929ec1d75c0e7ce7fef13820cb4a123b54d158f01289ca79ec42c948cf88f1ae",
+   "changes": [
+    {
+     "offset": 605,
+     "japanese": "タイトルああああああああああああ",
+     "english": "Title"
+    },
+    {
+     "offset": 1388,
+     "japanese": "警官の帽子/男性警官の服/男性警官の靴",
+     "english": "Police Cap/Police Uniform/Police Shoes"
+    },
+    {
+     "offset": 1829,
+     "japanese": "1.1（自己評価★3）（評価指数120）",
+     "english": "1.1 (Self-rated ★3) (Score 120)"
+    },
+    {
+     "offset": 5765,
+     "japanese": "１ ２ ３ ４ ５ ６ ７ ８ ９ １０ １１ １２ １３ １４",
+     "english": "1 2 3 4 5 6 7 8 9 10 11 12 13 14"
+    },
+    {
+     "offset": 6568,
+     "japanese": "[i5]Twitter投稿　[i7] Fasebook投稿　[i2]閉じる",
+     "english": "[i5]Twitter  [i7] Facebook  [i2] Close"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/treasure_change/TC_main.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "701637621bb240de48a3c87de0c6a44a78b3328d108b1b58a7e07c406c760317",
+   "changes": [
+    {
+     "offset": 5035,
+     "japanese": "現在のコイン数",
+     "english": "Current coins"
+    },
+    {
+     "offset": 6092,
+     "japanese": "アイテムアイテムアイテムアイテムアイテ          ム",
+     "english": "Item"
+    },
+    {
+     "offset": 6679,
+     "japanese": "必要コイン数",
+     "english": "Coins needed"
+    },
+    {
+     "offset": 7668,
+     "japanese": "アイテム交換",
+     "english": "Item trade"
+    },
+    {
+     "offset": 8991,
+     "japanese": "[i01] 交換　[i02] 閉じる",
+     "english": "[i01] Trade  [i02] Close"
+    }
+   ]
+  },
+  {
+   "path": "common/hud/text_marker/text_marker.hud",
+   "kind": "hud_utf8_property",
+   "source_sha256": "9aaf551368a92af7aa5a1a320a358fc30a6a3e5a0c154ba28a01398fb71748a8",
+   "changes": [
+    {
+     "offset": 612,
+     "japanese": "いらっしゃいませ",
+     "english": "Welcome!"
+    }
+   ]
+  }
+ ]
+}
