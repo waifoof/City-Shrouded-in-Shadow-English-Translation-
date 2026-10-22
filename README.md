@@ -4,6 +4,10 @@ Unofficial English fan translation of **巨影都市 (Kyoei Toshi / City Shroude
 
 **Current release: v1.0** — download it from the [Releases page](https://github.com/waifoof/City-Shrouded-in-Shadow-English-Translation-/releases/latest).
 
+[![Watch the English translation running on PS5](https://img.youtube.com/vi/lB-wLC9MY5E/hqdefault.jpg)](https://youtu.be/lB-wLC9MY5E)
+
+▶ **[Watch it running on PS5](https://youtu.be/lB-wLC9MY5E)**
+
 Target: Japanese PS4 release **CUSA03562** with update **01.03**.
 
 | | |
