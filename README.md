@@ -11,6 +11,16 @@ Target: Japanese PS4 release **CUSA03562** with update **01.03**.
 | ![Controls](docs/images/controls.jpg) | ![Stage cards](docs/images/stage_cards.jpg) |
 | ![Options](docs/images/options.jpg) | ![Notice](docs/images/notice.jpg) |
 
+## Running on PS5
+
+| | |
+|---|---|
+| ![Dialogue and speaker names](docs/images/ps5_dialogue.jpg) | ![Objectives, prompts and HUD](docs/images/ps5_street.jpg) |
+
+![Shop menu](docs/images/ps5_shop.jpg)
+
+*Captured on a jailbroken PS5 (firmware 13.00, ShadowMountPlus).*
+
 ## What's translated
 
 - All story dialogue, NPC conversations, choices and **speaker names**
